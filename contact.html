@@ -1,0 +1,3218 @@
+<!doctype html>
+
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+
+
+
+
+
+
+    <meta name="viewport" content="width=device-width">
+    <meta name="generator" content="Framer 259a342">
+    <title>David Martinez · Product Designer</title>
+    <meta name="description"
+        content="Designed for new designers, this Framer Template makes portfolio creation easy. Its minimalist, customizable design lets you add personal touches efficiently.">
+    <meta name="framer-search-index"
+        content="https://framerusercontent.com/sites/4PnzWskNO7Gw5neUy4CfEt/searchIndex-RF3hyLZA9F16.json">
+    <link href="https://framerusercontent.com/images/aQzX2QLcCjnf3Hg47BMXbh5mQgU.png" rel="icon"
+        media="(prefers-color-scheme: light)">
+    <link href="https://framerusercontent.com/images/aQzX2QLcCjnf3Hg47BMXbh5mQgU.png" rel="icon"
+        media="(prefers-color-scheme: dark)">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="David Martinez · Product Designer">
+    <meta property="og:description"
+        content="Designed for new designers, this Framer Template makes portfolio creation easy. Its minimalist, customizable design lets you add personal touches efficiently.">
+    <meta property="og:image" content="https://framerusercontent.com/images/kSfXc0jE9I6Pi4foH3qPPdqIMAc.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="David Martinez · Product Designer">
+    <meta name="twitter:description"
+        content="Designed for new designers, this Framer Template makes portfolio creation easy. Its minimalist, customizable design lets you add personal touches efficiently.">
+    <meta name="twitter:image" content="https://framerusercontent.com/images/kSfXc0jE9I6Pi4foH3qPPdqIMAc.png">
+
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <meta name="robots" content="max-image-preview:large">
+    <script>(() => { function w() { let o = e => { let t = new URL(e); return `${t.origin}${t.pathname}`.replace(/\/$/u, "") }, i = e => e.split("-")[0], u = window.location.hostname; function f() { let e = new Map; return document.querySelectorAll('link[rel="alternate"]').forEach(t => { let n = t.getAttribute("hreflang"), r = t.getAttribute("href"); !n || !r || n === "x-default" || new URL(r).hostname !== u || e.set(n, r) }), e } function g(e, t) { let r = document.querySelector('link[rel="alternate"][hreflang="x-default"]')?.getAttribute("href"); return r ? t.get(e) === r : !1 } function d() { try { let e = localStorage.getItem("preferredLocale"); return e ? [e, ...navigator.languages] : navigator.languages } catch { return navigator.languages } } function l(e) { o(window.location.href) !== o(e) && window.location.replace(e + window.location.search + window.location.hash) } if (navigator.webdriver || /bot|-google|google-|yandex|ia_archiver|crawl|spider/i.test(navigator.userAgent)) return; let c = document.documentElement.getAttribute("lang"); if (!c) return; let a = f(); if (g(c, a)) for (let e of d()) { let t = a.get(e); if (t) { l(t); return } let n = i(e); for (let [r, s] of a.entries()) if (i(r) === n) { l(s); return } } } return w })()()</script>
+    <style data-framer-breakpoint-css>
+        @media(min-width: 1200px) {
+            .hidden-k8wtuh {
+                display: none !important
+            }
+        }
+
+        @media(min-width: 810px) and (max-width: 1199px) {
+            .hidden-3mpir4 {
+                display: none !important
+            }
+        }
+
+        @media(max-width: 809px) {
+            .hidden-sxb98b {
+                display: none !important
+            }
+        }
+    </style>
+    <style data-framer-css-ssr-minified
+        data-framer-components="framer-lib-cursors-host framer-Dyaro PropertyOverrides framer-ZV6Nz framer-library-LocalePicker framer-ttwf0 framer-lkBrL">
+        html,
+        body,
+        #main {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        :root {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+
+        * {
+            box-sizing: border-box;
+            -webkit-font-smoothing: inherit
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        figure {
+            margin: 0
+        }
+
+        body,
+        input,
+        textarea,
+        select,
+        button {
+            font-size: 12px;
+            font-family: sans-serif
+        }
+
+        body {
+            --token-3ef014c9-ad51-4ceb-b698-92ed0047912a: rgb(255, 255, 255);
+            --token-266c8d71-9990-411c-9a11-ecf80446ea66: rgb(56, 66, 80);
+            --token-b1106767-fbaa-4a24-bd97-dfbf18764b12: rgb(68, 68, 68);
+            --token-ce2e7739-d2ec-4f54-8930-15144ae6239e: rgb(175, 175, 172);
+            --token-28e7f1eb-c89e-4bb0-ab33-0c0caa957f39: rgb(235, 235, 235);
+            --token-6404906a-a8f6-4a20-b609-163acb7b17d6: rgb(243, 243, 242);
+            --token-22175c2f-3a09-463a-8942-f7624f8a969b: rgb(252, 252, 253);
+            --token-66f5d6df-8b52-43e1-8802-de7b6c578951: rgb(243, 243, 242)
+        }
+
+        #__framer-badge-container {
+            position: fixed;
+            bottom: 0;
+            padding: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: right;
+            pointer-events: none;
+            z-index: 314159
+        }
+
+        .__framer-badge {
+            pointer-events: auto
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggqxSuXd.woff2) format("woff2");
+            unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggOxSuXd.woff2) format("woff2");
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggSxSuXd.woff2) format("woff2");
+            unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggixSuXd.woff2) format("woff2");
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggmxSuXd.woff2) format("woff2");
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggexSg.woff2) format("woff2");
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggqxSuXd.woff2) format("woff2");
+            unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggOxSuXd.woff2) format("woff2");
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggSxSuXd.woff2) format("woff2");
+            unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggixSuXd.woff2) format("woff2");
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggmxSuXd.woff2) format("woff2");
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggexSg.woff2) format("woff2");
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggqxSuXd.woff2) format("woff2");
+            unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggOxSuXd.woff2) format("woff2");
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggSxSuXd.woff2) format("woff2");
+            unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggixSuXd.woff2) format("woff2");
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggmxSuXd.woff2) format("woff2");
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggexSg.woff2) format("woff2");
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggqxSuXd.woff2) format("woff2");
+            unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggOxSuXd.woff2) format("woff2");
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggSxSuXd.woff2) format("woff2");
+            unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggixSuXd.woff2) format("woff2");
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggmxSuXd.woff2) format("woff2");
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggexSg.woff2) format("woff2");
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggqxSuXd.woff2) format("woff2");
+            unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggOxSuXd.woff2) format("woff2");
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggSxSuXd.woff2) format("woff2");
+            unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggixSuXd.woff2) format("woff2");
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggmxSuXd.woff2) format("woff2");
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggexSg.woff2) format("woff2");
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: Fragment Mono;
+            font-style: normal;
+            font-weight: 400;
+            font-display: block;
+            src: url(https://fonts.gstatic.com/s/fragmentmono/v4/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2) format("woff2");
+            unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: Fragment Mono;
+            font-style: normal;
+            font-weight: 400;
+            font-display: block;
+            src: url(https://fonts.gstatic.com/s/fragmentmono/v4/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2) format("woff2");
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: Fragment Mono;
+            font-style: normal;
+            font-weight: 400;
+            font-display: block;
+            src: url(https://fonts.gstatic.com/s/fragmentmono/v4/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2) format("woff2");
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 400;
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 400;
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 400;
+            unicode-range: U+1F00-1FFF
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 400;
+            unicode-range: U+0370-03FF
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 400;
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/vQyevYAyHtARFwPqUzQGpnDs.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 400;
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2);
+            font-display: swap;
+            font-style: normal;
+            font-weight: 400;
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-Black.cyrillic-ext-TU4ITVTR.woff2);
+            font-display: block;
+            font-style: normal;
+            font-weight: 900;
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-Black.cyrillic-JX7CGTYD.woff2);
+            font-display: block;
+            font-style: normal;
+            font-weight: 900;
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-Black.greek-ext-LS3GCBFI.woff2);
+            font-display: block;
+            font-style: normal;
+            font-weight: 900;
+            unicode-range: U+1F00-1FFF
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-Black.greek-ZWCJHBP5.woff2);
+            font-display: block;
+            font-style: normal;
+            font-weight: 900;
+            unicode-range: U+0370-03FF
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-Black.latin-ext-BZLEUMX6.woff2);
+            font-display: block;
+            font-style: normal;
+            font-weight: 900;
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-Black.latin-TETRYDF7.woff2);
+            font-display: block;
+            font-style: normal;
+            font-weight: 900;
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-Black.vietnamese-RXQCC3EJ.woff2);
+            font-display: block;
+            font-style: normal;
+            font-weight: 900;
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-BlackItalic.cyrillic-ext-TRM4ITYR.woff2);
+            font-display: block;
+            font-style: italic;
+            font-weight: 900;
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-BlackItalic.cyrillic-FPHIQVZS.woff2);
+            font-display: block;
+            font-style: italic;
+            font-weight: 900;
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-BlackItalic.greek-ext-JTGUUSP5.woff2);
+            font-display: block;
+            font-style: italic;
+            font-weight: 900;
+            unicode-range: U+1F00-1FFF
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-BlackItalic.greek-LUNA3RFO.woff2);
+            font-display: block;
+            font-style: italic;
+            font-weight: 900;
+            unicode-range: U+0370-03FF
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-BlackItalic.latin-ext-KU7ICFYH.woff2);
+            font-display: block;
+            font-style: italic;
+            font-weight: 900;
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-BlackItalic.latin-FRVXWQSB.woff2);
+            font-display: block;
+            font-style: italic;
+            font-weight: 900;
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-BlackItalic.vietnamese-2Q7MQKJX.woff2);
+            font-display: block;
+            font-style: italic;
+            font-weight: 900;
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-BoldItalic.cyrillic-ext-PEYDHC3S.woff2);
+            font-display: swap;
+            font-style: italic;
+            font-weight: 700;
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-BoldItalic.cyrillic-7EIL6JWG.woff2);
+            font-display: swap;
+            font-style: italic;
+            font-weight: 700;
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-BoldItalic.greek-ext-3DJOYQMH.woff2);
+            font-display: swap;
+            font-style: italic;
+            font-weight: 700;
+            unicode-range: U+1F00-1FFF
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-BoldItalic.greek-TJBTLTT7.woff2);
+            font-display: swap;
+            font-style: italic;
+            font-weight: 700;
+            unicode-range: U+0370-03FF
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-BoldItalic.latin-ext-FVPCPRBJ.woff2);
+            font-display: swap;
+            font-style: italic;
+            font-weight: 700;
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-BoldItalic.latin-5ZFQS4XK.woff2);
+            font-display: swap;
+            font-style: italic;
+            font-weight: 700;
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: Inter;
+            src: url(https://app.framerstatic.com/Inter-BoldItalic.vietnamese-W2625PGF.woff2);
+            font-display: swap;
+            font-style: italic;
+            font-weight: 700;
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: Manrope Placeholder;
+            src: local("Arial");
+            ascent-override: 102.74%;
+            descent-override: 28.91%;
+            line-gap-override: 0%;
+            size-adjust: 103.76%
+        }
+
+        @font-face {
+            font-family: Inter Placeholder;
+            src: local("Arial");
+            ascent-override: 89.79%;
+            descent-override: 22.36%;
+            line-gap-override: 0%;
+            size-adjust: 107.89%
+        }
+
+        body {
+            --framer-will-change-override: none
+        }
+
+        @supports (background: -webkit-named-image(i)) and (not (grid-template-rows: subgrid)) {
+            body {
+                --framer-will-change-override: transform
+            }
+        }
+
+        [data-framer-component-type] {
+            position: absolute
+        }
+
+        [data-framer-component-type=Text] {
+            cursor: inherit
+        }
+
+        [data-framer-component-text-autosized] * {
+            white-space: pre
+        }
+
+        [data-framer-component-type=Text]>* {
+            text-align: var(--framer-text-alignment, start)
+        }
+
+        [data-framer-component-type=Text] span span,
+        [data-framer-component-type=Text] p span,
+        [data-framer-component-type=Text] h1 span,
+        [data-framer-component-type=Text] h2 span,
+        [data-framer-component-type=Text] h3 span,
+        [data-framer-component-type=Text] h4 span,
+        [data-framer-component-type=Text] h5 span,
+        [data-framer-component-type=Text] h6 span {
+            display: block
+        }
+
+        [data-framer-component-type=Text] span span span,
+        [data-framer-component-type=Text] p span span,
+        [data-framer-component-type=Text] h1 span span,
+        [data-framer-component-type=Text] h2 span span,
+        [data-framer-component-type=Text] h3 span span,
+        [data-framer-component-type=Text] h4 span span,
+        [data-framer-component-type=Text] h5 span span,
+        [data-framer-component-type=Text] h6 span span {
+            display: unset
+        }
+
+        [data-framer-component-type=Text] div div span,
+        [data-framer-component-type=Text] a div span,
+        [data-framer-component-type=Text] span span span,
+        [data-framer-component-type=Text] p span span,
+        [data-framer-component-type=Text] h1 span span,
+        [data-framer-component-type=Text] h2 span span,
+        [data-framer-component-type=Text] h3 span span,
+        [data-framer-component-type=Text] h4 span span,
+        [data-framer-component-type=Text] h5 span span,
+        [data-framer-component-type=Text] h6 span span,
+        [data-framer-component-type=Text] a {
+            font-family: var(--font-family);
+            font-style: var(--font-style);
+            font-weight: min(calc(var(--framer-font-weight-increase, 0) + var(--font-weight, 400)), 900);
+            color: var(--text-color);
+            letter-spacing: var(--letter-spacing);
+            font-size: var(--font-size);
+            text-transform: var(--text-transform);
+            text-decoration: var(--text-decoration);
+            line-height: var(--line-height)
+        }
+
+        [data-framer-component-type=Text] div div span,
+        [data-framer-component-type=Text] a div span,
+        [data-framer-component-type=Text] span span span,
+        [data-framer-component-type=Text] p span span,
+        [data-framer-component-type=Text] h1 span span,
+        [data-framer-component-type=Text] h2 span span,
+        [data-framer-component-type=Text] h3 span span,
+        [data-framer-component-type=Text] h4 span span,
+        [data-framer-component-type=Text] h5 span span,
+        [data-framer-component-type=Text] h6 span span,
+        [data-framer-component-type=Text] a {
+            --font-family: var(--framer-font-family);
+            --font-style: var(--framer-font-style);
+            --font-weight: var(--framer-font-weight);
+            --text-color: var(--framer-text-color);
+            --letter-spacing: var(--framer-letter-spacing);
+            --font-size: var(--framer-font-size);
+            --text-transform: var(--framer-text-transform);
+            --text-decoration: var(--framer-text-decoration);
+            --line-height: var(--framer-line-height)
+        }
+
+        [data-framer-component-type=Text] a,
+        [data-framer-component-type=Text] a div span,
+        [data-framer-component-type=Text] a span span span,
+        [data-framer-component-type=Text] a p span span,
+        [data-framer-component-type=Text] a h1 span span,
+        [data-framer-component-type=Text] a h2 span span,
+        [data-framer-component-type=Text] a h3 span span,
+        [data-framer-component-type=Text] a h4 span span,
+        [data-framer-component-type=Text] a h5 span span,
+        [data-framer-component-type=Text] a h6 span span {
+            --font-family: var(--framer-link-font-family, var(--framer-font-family));
+            --font-style: var(--framer-link-font-style, var(--framer-font-style));
+            --font-weight: var(--framer-link-font-weight, var(--framer-font-weight));
+            --text-color: var(--framer-link-text-color, var(--framer-text-color));
+            --font-size: var(--framer-link-font-size, var(--framer-font-size));
+            --text-transform: var(--framer-link-text-transform, var(--framer-text-transform));
+            --text-decoration: var(--framer-link-text-decoration, var(--framer-text-decoration))
+        }
+
+        [data-framer-component-type=Text] a:hover,
+        [data-framer-component-type=Text] a div span:hover,
+        [data-framer-component-type=Text] a span span span:hover,
+        [data-framer-component-type=Text] a p span span:hover,
+        [data-framer-component-type=Text] a h1 span span:hover,
+        [data-framer-component-type=Text] a h2 span span:hover,
+        [data-framer-component-type=Text] a h3 span span:hover,
+        [data-framer-component-type=Text] a h4 span span:hover,
+        [data-framer-component-type=Text] a h5 span span:hover,
+        [data-framer-component-type=Text] a h6 span span:hover {
+            --font-family: var(--framer-link-hover-font-family, var(--framer-link-font-family, var(--framer-font-family)));
+            --font-style: var(--framer-link-hover-font-style, var(--framer-link-font-style, var(--framer-font-style)));
+            --font-weight: var(--framer-link-hover-font-weight, var(--framer-link-font-weight, var(--framer-font-weight)));
+            --text-color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-text-color)));
+            --font-size: var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size)));
+            --text-transform: var(--framer-link-hover-text-transform, var(--framer-link-text-transform, var(--framer-text-transform)));
+            --text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration)))
+        }
+
+        [data-framer-component-type=Text].isCurrent a,
+        [data-framer-component-type=Text].isCurrent a div span,
+        [data-framer-component-type=Text].isCurrent a span span span,
+        [data-framer-component-type=Text].isCurrent a p span span,
+        [data-framer-component-type=Text].isCurrent a h1 span span,
+        [data-framer-component-type=Text].isCurrent a h2 span span,
+        [data-framer-component-type=Text].isCurrent a h3 span span,
+        [data-framer-component-type=Text].isCurrent a h4 span span,
+        [data-framer-component-type=Text].isCurrent a h5 span span,
+        [data-framer-component-type=Text].isCurrent a h6 span span {
+            --font-family: var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family)));
+            --font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style)));
+            --font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight)));
+            --text-color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color)));
+            --font-size: var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size)));
+            --text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform)));
+            --text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration)))
+        }
+
+        p.framer-text,
+        div.framer-text,
+        figure.framer-text,
+        h1.framer-text,
+        h2.framer-text,
+        h3.framer-text,
+        h4.framer-text,
+        h5.framer-text,
+        h6.framer-text,
+        ol.framer-text,
+        ul.framer-text {
+            margin: 0;
+            padding: 0
+        }
+
+        p.framer-text,
+        div.framer-text,
+        h1.framer-text,
+        h2.framer-text,
+        h3.framer-text,
+        h4.framer-text,
+        h5.framer-text,
+        h6.framer-text,
+        li.framer-text,
+        ol.framer-text,
+        ul.framer-text,
+        span.framer-text:not([data-text-fill]) {
+            font-family: var(--framer-blockquote-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+            font-style: var(--framer-blockquote-font-style, var(--framer-font-style, normal));
+            font-weight: var(--framer-blockquote-font-weight, var(--framer-font-weight, 400));
+            color: var(--framer-blockquote-text-color, var(--framer-text-color, #000));
+            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1));
+            letter-spacing: var(--framer-blockquote-letter-spacing, var(--framer-letter-spacing, 0));
+            text-transform: var(--framer-blockquote-text-transform, var(--framer-text-transform, none));
+            text-decoration: var(--framer-blockquote-text-decoration, var(--framer-text-decoration, none));
+            line-height: var(--framer-blockquote-line-height, var(--framer-line-height, 1.2em));
+            text-align: var(--framer-blockquote-text-alignment, var(--framer-text-alignment, start));
+            -webkit-text-stroke-width: var(--framer-text-stroke-width, initial);
+            -webkit-text-stroke-color: var(--framer-text-stroke-color, initial);
+            -moz-font-feature-settings: var(--framer-font-open-type-features, initial);
+            -webkit-font-feature-settings: var(--framer-font-open-type-features, initial);
+            font-feature-settings: var(--framer-font-open-type-features, initial);
+            font-variation-settings: var(--framer-font-variation-axes, normal);
+            text-wrap: var(--framer-text-wrap-override, var(--framer-text-wrap))
+        }
+
+        @supports not (color: color(display-p3 1 1 1)) {
+
+            p.framer-text,
+            div.framer-text,
+            h1.framer-text,
+            h2.framer-text,
+            h3.framer-text,
+            h4.framer-text,
+            h5.framer-text,
+            h6.framer-text,
+            li.framer-text,
+            ol.framer-text,
+            ul.framer-text,
+            span.framer-text:not([data-text-fill]) {
+                color: var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))));
+                -webkit-text-stroke-color: var(--framer-text-stroke-color-rgb, var(--framer-text-stroke-color, initial))
+            }
+        }
+
+        .framer-fit-text .framer-text {
+            white-space: nowrap;
+            white-space-collapse: preserve
+        }
+
+        strong.framer-text {
+            font-family: var(--framer-blockquote-font-family-bold, var(--framer-font-family-bold));
+            font-style: var(--framer-blockquote-font-style-bold, var(--framer-font-style-bold));
+            font-weight: var(--framer-blockquote-font-weight-bold, var(--framer-font-weight-bold, bolder));
+            font-variation-settings: var(--framer-blockquote-font-variation-axes-bold, var(--framer-font-variation-axes-bold))
+        }
+
+        em.framer-text {
+            font-family: var(--framer-blockquote-font-family-italic, var(--framer-font-family-italic));
+            font-style: var(--framer-blockquote-font-style-italic, var(--framer-font-style-italic, italic));
+            font-weight: var(--framer-blockquote-font-weight-italic, var(--framer-font-weight-italic));
+            font-variation-settings: var(--framer-blockquote-font-variation-axes-italic, var(--framer-font-variation-axes-italic))
+        }
+
+        em.framer-text>strong.framer-text {
+            font-family: var(--framer-blockquote-font-family-bold-italic, var(--framer-font-family-bold-italic));
+            font-style: var(--framer-blockquote-font-style-bold-italic, var(--framer-font-style-bold-italic, italic));
+            font-weight: var(--framer-blockquote-font-weight-bold-italic, var(--framer-font-weight-bold-italic, bolder));
+            font-variation-settings: var(--framer-blockquote-font-variation-axes-bold-italic, var(--framer-font-variation-axes-bold-italic))
+        }
+
+        p.framer-text:not(:first-child),
+        div.framer-text:not(:first-child),
+        h1.framer-text:not(:first-child),
+        h2.framer-text:not(:first-child),
+        h3.framer-text:not(:first-child),
+        h4.framer-text:not(:first-child),
+        h5.framer-text:not(:first-child),
+        h6.framer-text:not(:first-child),
+        ol.framer-text:not(:first-child),
+        ul.framer-text:not(:first-child),
+        blockquote.framer-text:not(:first-child),
+        table.framer-text:not(:first-child),
+        figure.framer-text:not(:first-child),
+        .framer-image.framer-text:not(:first-child) {
+            margin-top: var(--framer-blockquote-paragraph-spacing, var(--framer-paragraph-spacing, 0))
+        }
+
+        li.framer-text>ul.framer-text:nth-child(2),
+        li.framer-text>ol.framer-text:nth-child(2) {
+            margin-top: 0
+        }
+
+        .framer-text[data-text-fill] {
+            display: inline-block;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            padding: max(0em, calc(calc(1.3em - var(--framer-blockquote-line-height, var(--framer-line-height, 1.3em))) / 2));
+            margin: min(0em, calc(calc(1.3em - var(--framer-blockquote-line-height, var(--framer-line-height, 1.3em))) / -2))
+        }
+
+        code.framer-text,
+        code.framer-text span.framer-text:not([data-text-fill]) {
+            font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+            font-style: var(--framer-blockquote-font-style, var(--framer-code-font-style, var(--framer-font-style, normal)));
+            font-weight: var(--framer-blockquote-font-weight, var(--framer-code-font-weight, var(--framer-font-weight, 400)));
+            color: var(--framer-blockquote-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)));
+            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1));
+            letter-spacing: var(--framer-blockquote-letter-spacing, var(--framer-letter-spacing, 0));
+            line-height: var(--framer-blockquote-line-height, var(--framer-line-height, 1.2em))
+        }
+
+        @supports not (color: color(display-p3 1 1 1)) {
+
+            code.framer-text,
+            code.framer-text span.framer-text:not([data-text-fill]) {
+                color: var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))
+            }
+        }
+
+        blockquote.framer-text {
+            margin-block-start: initial;
+            margin-block-end: initial;
+            margin-inline-start: initial;
+            margin-inline-end: initial;
+            unicode-bidi: initial
+        }
+
+        a.framer-text,
+        a.framer-text span.framer-text:not([data-text-fill]),
+        span.framer-text[data-nested-link],
+        span.framer-text[data-nested-link] span.framer-text:not([data-text-fill]) {
+            font-family: var(--framer-blockquote-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+            font-style: var(--framer-blockquote-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+            font-weight: var(--framer-blockquote-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+            color: var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1));
+            text-transform: var(--framer-blockquote-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+            text-decoration: var(--framer-blockquote-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)));
+            cursor: var(--framer-custom-cursors, pointer)
+        }
+
+        @supports not (color: color(display-p3 1 1 1)) {
+
+            a.framer-text,
+            a.framer-text span.framer-text:not([data-text-fill]),
+            span.framer-text[data-nested-link],
+            span.framer-text[data-nested-link] span.framer-text:not([data-text-fill]) {
+                color: var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))
+            }
+        }
+
+        code.framer-text a.framer-text,
+        code.framer-text a.framer-text span.framer-text:not([data-text-fill]),
+        code.framer-text span.framer-text[data-nested-link],
+        code.framer-text span.framer-text[data-nested-link] span.framer-text:not([data-text-fill]) {
+            font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+            font-style: var(--framer-blockquote-font-style, var(--framer-code-font-style, var(--framer-font-style, normal)));
+            font-weight: var(--framer-blockquote-font-weight, var(--framer-code-font-weight, var(--framer-font-weight, 400)));
+            color: var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000))));
+            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1))
+        }
+
+        @supports not (color: color(display-p3 1 1 1)) {
+
+            code.framer-text a.framer-text,
+            code.framer-text a.framer-text span.framer-text:not([data-text-fill]),
+            code.framer-text span.framer-text[data-nested-link],
+            code.framer-text span.framer-text[data-nested-link] span.framer-text:not([data-text-fill]) {
+                color: var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))
+            }
+        }
+
+        a.framer-text:hover,
+        a.framer-text:hover span.framer-text:not([data-text-fill]),
+        span.framer-text[data-nested-link]:hover,
+        span.framer-text[data-nested-link]:hover span.framer-text:not([data-text-fill]) {
+            font-family: var(--framer-link-hover-font-family, var(--framer-blockquote-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif))));
+            font-style: var(--framer-link-hover-font-style, var(--framer-blockquote-font-style, var(--framer-link-font-style, var(--framer-font-style, normal))));
+            font-weight: var(--framer-link-hover-font-weight, var(--framer-blockquote-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400))));
+            color: var(--framer-link-hover-text-color, var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
+            font-size: calc(var(--framer-link-hover-font-size, var(--framer-blockquote-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1));
+            text-transform: var(--framer-link-hover-text-transform, var(--framer-blockquote-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
+            text-decoration: var(--framer-link-hover-text-decoration, var(--framer-blockquote-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))))
+        }
+
+        @supports not (color: color(display-p3 1 1 1)) {
+
+            a.framer-text:hover,
+            a.framer-text:hover span.framer-text:not([data-text-fill]),
+            span.framer-text[data-nested-link]:hover,
+            span.framer-text[data-nested-link]:hover span.framer-text:not([data-text-fill]) {
+                color: var(--framer-link-hover-text-color-rgb, var(--framer-link-hover-text-color, var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))
+            }
+        }
+
+        code.framer-text a.framer-text:hover,
+        code.framer-text a.framer-text:hover span.framer-text:not([data-text-fill]),
+        code.framer-text span.framer-text[data-nested-link]:hover,
+        code.framer-text span.framer-text[data-nested-link]:hover span.framer-text:not([data-text-fill]) {
+            font-family: var(var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+            font-style: var(--framer-blockquote-font-style, var(--framer-code-font-style, var(--framer-font-style, normal)));
+            font-weight: var(--framer-blockquote-font-weight, var(--framer-code-font-weight, var(--framer-font-weight, 400)));
+            color: var(--framer-link-hover-text-color, var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)))));
+            font-size: calc(var(--framer-link-hover-font-size, var(--framer-blockquote-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))) * var(--framer-font-size-scale, 1))
+        }
+
+        @supports not (color: color(display-p3 1 1 1)) {
+
+            code.framer-text a.framer-text:hover,
+            code.framer-text a.framer-text:hover span.framer-text:not([data-text-fill]),
+            code.framer-text span.framer-text[data-nested-link]:hover,
+            code.framer-text span.framer-text[data-nested-link]:hover span.framer-text:not([data-text-fill]) {
+                color: var(--framer-link-hover-text-color-rgb, var(--framer-link-hover-text-color, var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))
+            }
+        }
+
+        a.framer-text[data-framer-page-link-current],
+        a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]),
+        span.framer-text[data-framer-page-link-current],
+        span.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
+            font-family: var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+            font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+            font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+            color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+            font-size: calc(var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1));
+            text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+            text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+        }
+
+        @supports not (color: color(display-p3 1 1 1)) {
+
+            a.framer-text[data-framer-page-link-current],
+            a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]),
+            span.framer-text[data-framer-page-link-current],
+            span.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
+                color: var(--framer-link-current-text-color-rgb, var(--framer-link-current-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))
+            }
+        }
+
+        code.framer-text a.framer-text[data-framer-page-link-current],
+        code.framer-text a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]),
+        code.framer-text span.framer-text[data-framer-page-link-current],
+        code.framer-text span.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
+            font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+            font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
+            font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
+            color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000))));
+            font-size: calc(var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1))
+        }
+
+        @supports not (color: color(display-p3 1 1 1)) {
+
+            code.framer-text a.framer-text[data-framer-page-link-current],
+            code.framer-text a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]),
+            code.framer-text span.framer-text[data-framer-page-link-current],
+            code.framer-text span.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
+                color: var(--framer-link-current-text-color-rgb, var(--framer-link-current-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))
+            }
+        }
+
+        a.framer-text[data-framer-page-link-current]:hover,
+        a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]),
+        span.framer-text[data-framer-page-link-current]:hover,
+        span.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
+            font-family: var(--framer-link-hover-font-family, var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif))));
+            font-style: var(--framer-link-hover-font-style, var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal))));
+            font-weight: var(--framer-link-hover-font-weight, var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400))));
+            color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
+            font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))) * var(--framer-font-size-scale, 1));
+            text-transform: var(--framer-link-hover-text-transform, var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
+            text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))))
+        }
+
+        @supports not (color: color(display-p3 1 1 1)) {
+
+            a.framer-text[data-framer-page-link-current]:hover,
+            a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]),
+            span.framer-text[data-framer-page-link-current]:hover,
+            span.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
+                color: var(--framer-link-hover-text-color-rgb, var(--framer-link-hover-text-color, var(--framer-link-current-text-color-rgb, var(--framer-link-current-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))))
+            }
+        }
+
+        code.framer-text a.framer-text[data-framer-page-link-current]:hover,
+        code.framer-text a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]),
+        code.framer-text span.framer-text[data-framer-page-link-current]:hover,
+        code.framer-text span.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
+            font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+            font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
+            font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
+            color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)))));
+            font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))) * var(--framer-font-size-scale, 1))
+        }
+
+        @supports not (color: color(display-p3 1 1 1)) {
+
+            code.framer-text a.framer-text[data-framer-page-link-current]:hover,
+            code.framer-text a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]),
+            code.framer-text span.framer-text[data-framer-page-link-current]:hover,
+            code.framer-text span.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
+                color: var(--framer-link-hover-text-color-rgb, var(--framer-link-hover-text-color, var(--framer-link-current-text-color-rgb, var(--framer-link-current-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))))
+            }
+        }
+
+        .framer-image.framer-text {
+            display: block;
+            max-width: 100%;
+            height: auto
+        }
+
+        .text-styles-preset-reset.framer-text {
+            --framer-font-family: Inter, Inter Placeholder, sans-serif;
+            --framer-font-style: normal;
+            --framer-font-weight: 500;
+            --framer-text-color: #000;
+            --framer-font-size: 16px;
+            --framer-letter-spacing: 0;
+            --framer-text-transform: none;
+            --framer-text-decoration: none;
+            --framer-line-height: 1.2em;
+            --framer-text-alignment: start;
+            --framer-font-open-type-features: normal
+        }
+
+        ol.framer-text {
+            --list-style-type: decimal
+        }
+
+        ul.framer-text,
+        ol.framer-text {
+            padding-left: 3ch;
+            position: relative
+        }
+
+        li.framer-text {
+            counter-increment: list-item;
+            list-style: none
+        }
+
+        ol.framer-text>li.framer-text:before {
+            position: absolute;
+            left: 0;
+            content: counter(list-item, var(--list-style-type)) ".";
+            font-variant-numeric: tabular-nums
+        }
+
+        ol.framer-text>li.framer-text:nth-last-child(n+100),
+        ol.framer-text>li.framer-text:nth-last-child(n+100)~li {
+            padding-left: 1ch
+        }
+
+        ol.framer-text>li.framer-text:nth-last-child(n+1000),
+        ol.framer-text>li.framer-text:nth-last-child(n+1000)~li {
+            padding-left: 2ch
+        }
+
+        ol.framer-text>li.framer-text:nth-last-child(n+10000),
+        ol.framer-text>li.framer-text:nth-last-child(n+10000)~li {
+            padding-left: 3ch
+        }
+
+        ol.framer-text>li.framer-text:nth-last-child(n+100000),
+        ol.framer-text>li.framer-text:nth-last-child(n+100000)~li {
+            padding-left: 4ch
+        }
+
+        ol.framer-text>li.framer-text:nth-last-child(n+1000000),
+        ol.framer-text>li.framer-text:nth-last-child(n+1000000)~li {
+            padding-left: 5ch
+        }
+
+        ul.framer-text>li.framer-text:before {
+            position: absolute;
+            left: 0;
+            content: "\2022"
+        }
+
+        .framer-table-wrapper {
+            overflow-x: auto
+        }
+
+        table.framer-text,
+        .framer-table-wrapper table.framer-text {
+            border-collapse: separate;
+            border-spacing: 0;
+            table-layout: auto;
+            word-break: normal;
+            width: 100%
+        }
+
+        td.framer-text,
+        th.framer-text {
+            min-width: 16ch;
+            vertical-align: top
+        }
+
+        .framer-text-module[style*=aspect-ratio]>:first-child {
+            width: 100%
+        }
+
+        @supports not (aspect-ratio: 1) {
+            .framer-text-module[style*=aspect-ratio] {
+                position: relative
+            }
+        }
+
+        @supports not (aspect-ratio: 1) {
+            .framer-text-module[style*=aspect-ratio]:before {
+                content: "";
+                display: block;
+                padding-bottom: calc(100% / calc(var(--aspect-ratio)))
+            }
+        }
+
+        @supports not (aspect-ratio: 1) {
+            .framer-text-module[style*=aspect-ratio]>:first-child {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%
+            }
+        }
+
+        [data-framer-component-type=DeprecatedRichText] {
+            cursor: inherit
+        }
+
+        [data-framer-component-type=DeprecatedRichText] .text-styles-preset-reset {
+            --framer-font-family: Inter, Inter Placeholder, sans-serif;
+            --framer-font-style: normal;
+            --framer-font-weight: 500;
+            --framer-text-color: #000;
+            --framer-font-size: 16px;
+            --framer-letter-spacing: 0;
+            --framer-text-transform: none;
+            --framer-text-decoration: none;
+            --framer-line-height: 1.2em;
+            --framer-text-alignment: start;
+            --framer-font-open-type-features: normal;
+            --font-variation-settings: normal
+        }
+
+        [data-framer-component-type=DeprecatedRichText] p,
+        [data-framer-component-type=DeprecatedRichText] div,
+        [data-framer-component-type=DeprecatedRichText] h1,
+        [data-framer-component-type=DeprecatedRichText] h2,
+        [data-framer-component-type=DeprecatedRichText] h3,
+        [data-framer-component-type=DeprecatedRichText] h4,
+        [data-framer-component-type=DeprecatedRichText] h5,
+        [data-framer-component-type=DeprecatedRichText] h6 {
+            margin: 0;
+            padding: 0
+        }
+
+        [data-framer-component-type=DeprecatedRichText] p,
+        [data-framer-component-type=DeprecatedRichText] div,
+        [data-framer-component-type=DeprecatedRichText] h1,
+        [data-framer-component-type=DeprecatedRichText] h2,
+        [data-framer-component-type=DeprecatedRichText] h3,
+        [data-framer-component-type=DeprecatedRichText] h4,
+        [data-framer-component-type=DeprecatedRichText] h5,
+        [data-framer-component-type=DeprecatedRichText] h6,
+        [data-framer-component-type=DeprecatedRichText] li,
+        [data-framer-component-type=DeprecatedRichText] ol,
+        [data-framer-component-type=DeprecatedRichText] ul,
+        [data-framer-component-type=DeprecatedRichText] span:not([data-text-fill]) {
+            font-family: var(--framer-font-family, Inter, Inter Placeholder, sans-serif);
+            font-style: var(--framer-font-style, normal);
+            font-weight: var(--framer-font-weight, 400);
+            color: var(--framer-text-color, #000);
+            font-size: var(--framer-font-size, 16px);
+            letter-spacing: var(--framer-letter-spacing, 0);
+            text-transform: var(--framer-text-transform, none);
+            text-decoration: var(--framer-text-decoration, none);
+            line-height: var(--framer-line-height, 1.2em);
+            text-align: var(--framer-text-alignment, start)
+        }
+
+        [data-framer-component-type=DeprecatedRichText] p:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] div:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] h1:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] h2:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] h3:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] h4:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] h5:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] h6:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] ol:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] ul:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] .framer-image:not(:first-child) {
+            margin-top: var(--framer-paragraph-spacing, 0)
+        }
+
+        [data-framer-component-type=DeprecatedRichText] span[data-text-fill] {
+            display: inline-block;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent
+        }
+
+        [data-framer-component-type=DeprecatedRichText] a,
+        [data-framer-component-type=DeprecatedRichText] a span:not([data-text-fill]) {
+            font-family: var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+            font-style: var(--framer-link-font-style, var(--framer-font-style, normal));
+            font-weight: var(--framer-link-font-weight, var(--framer-font-weight, 400));
+            color: var(--framer-link-text-color, var(--framer-text-color, #000));
+            font-size: var(--framer-link-font-size, var(--framer-font-size, 16px));
+            text-transform: var(--framer-link-text-transform, var(--framer-text-transform, none));
+            text-decoration: var(--framer-link-text-decoration, var(--framer-text-decoration, none))
+        }
+
+        [data-framer-component-type=DeprecatedRichText] a:hover,
+        [data-framer-component-type=DeprecatedRichText] a:hover span:not([data-text-fill]) {
+            font-family: var(--framer-link-hover-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+            font-style: var(--framer-link-hover-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+            font-weight: var(--framer-link-hover-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+            color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+            font-size: var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)));
+            text-transform: var(--framer-link-hover-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+            text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+        }
+
+        [data-framer-component-type=DeprecatedRichText] a[data-framer-page-link-current],
+        [data-framer-component-type=DeprecatedRichText] a[data-framer-page-link-current] span:not([data-text-fill]):not([data-nested-link]) {
+            font-family: var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+            font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+            font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+            color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+            font-size: var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)));
+            text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+            text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+        }
+
+        [data-framer-component-type=DeprecatedRichText] a[data-framer-page-link-current]:hover,
+        [data-framer-component-type=DeprecatedRichText] a[data-framer-page-link-current]:hover span:not([data-text-fill]):not([data-nested-link]) {
+            font-family: var(--framer-link-hover-font-family, var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif))));
+            font-style: var(--framer-link-hover-font-style, var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal))));
+            font-weight: var(--framer-link-hover-font-weight, var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400))));
+            color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
+            font-size: var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))));
+            text-transform: var(--framer-link-hover-text-transform, var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
+            text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))))
+        }
+
+        [data-framer-component-type=DeprecatedRichText] strong {
+            font-weight: bolder
+        }
+
+        [data-framer-component-type=DeprecatedRichText] em {
+            font-style: italic
+        }
+
+        [data-framer-component-type=DeprecatedRichText] .framer-image {
+            display: block;
+            max-width: 100%;
+            height: auto
+        }
+
+        [data-framer-component-type=DeprecatedRichText] ul,
+        [data-framer-component-type=DeprecatedRichText] ol {
+            display: table;
+            width: 100%;
+            padding-left: 0;
+            margin: 0
+        }
+
+        [data-framer-component-type=DeprecatedRichText] li {
+            display: table-row;
+            counter-increment: list-item;
+            list-style: none
+        }
+
+        [data-framer-component-type=DeprecatedRichText] ol>li:before {
+            display: table-cell;
+            width: 2.25ch;
+            box-sizing: border-box;
+            padding-right: .75ch;
+            content: counter(list-item) ".";
+            white-space: nowrap
+        }
+
+        [data-framer-component-type=DeprecatedRichText] ul>li:before {
+            display: table-cell;
+            width: 2.25ch;
+            box-sizing: border-box;
+            padding-right: .75ch;
+            content: "\2022"
+        }
+
+        :not([data-framer-generated])>[data-framer-stack-content-wrapper]>*,
+        :not([data-framer-generated])>[data-framer-stack-content-wrapper]>[data-framer-component-type],
+        :not([data-framer-generated])>[data-framer-stack-content-wrapper]>[data-framer-legacy-stack-gap-enabled]>*,
+        :not([data-framer-generated])>[data-framer-stack-content-wrapper]>[data-framer-legacy-stack-gap-enabled]>[data-framer-component-type] {
+            position: relative
+        }
+
+        .flexbox-gap-not-supported [data-framer-legacy-stack-gap-enabled=true]>*,
+        [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false] {
+            margin-top: calc(var(--stack-gap-y) / 2);
+            margin-bottom: calc(var(--stack-gap-y) / 2);
+            margin-right: calc(var(--stack-gap-x) / 2);
+            margin-left: calc(var(--stack-gap-x) / 2)
+        }
+
+        [data-framer-stack-content-wrapper][data-framer-stack-gap-enabled=true] {
+            row-gap: var(--stack-native-row-gap);
+            column-gap: var(--stack-native-column-gap)
+        }
+
+        .flexbox-gap-not-supported [data-framer-stack-content-wrapper][data-framer-stack-gap-enabled=true] {
+            row-gap: unset;
+            column-gap: unset
+        }
+
+        .flexbox-gap-not-supported [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true]>*:first-child,
+        [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:first-child,
+        .flexbox-gap-not-supported [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true]>*:last-child,
+        [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:last-child {
+            margin-top: 0;
+            margin-left: 0
+        }
+
+        .flexbox-gap-not-supported [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true]>*:last-child,
+        [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:last-child,
+        .flexbox-gap-not-supported [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true]>*:first-child,
+        [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:first-child {
+            margin-right: 0;
+            margin-bottom: 0
+        }
+
+        NavigationContainer [data-framer-component-type=NavigationContainer]>*,
+        [data-framer-component-type=NavigationContainer]>[data-framer-component-type] {
+            position: relative
+        }
+
+        [data-framer-component-type=Scroll]::-webkit-scrollbar {
+            display: none
+        }
+
+        [data-framer-component-type=ScrollContentWrapper]>* {
+            position: relative
+        }
+
+        [data-framer-component-type=NativeScroll] {
+            -webkit-overflow-scrolling: touch
+        }
+
+        [data-framer-component-type=NativeScroll]>* {
+            position: relative
+        }
+
+        [data-framer-component-type=NativeScroll].direction-both {
+            overflow-x: scroll;
+            overflow-y: scroll
+        }
+
+        [data-framer-component-type=NativeScroll].direction-vertical {
+            overflow-x: hidden;
+            overflow-y: scroll
+        }
+
+        [data-framer-component-type=NativeScroll].direction-horizontal {
+            overflow-x: scroll;
+            overflow-y: hidden
+        }
+
+        [data-framer-component-type=NativeScroll].direction-vertical>* {
+            width: 100% !important
+        }
+
+        [data-framer-component-type=NativeScroll].direction-horizontal>* {
+            height: 100% !important
+        }
+
+        [data-framer-component-type=NativeScroll].scrollbar-hidden::-webkit-scrollbar {
+            display: none
+        }
+
+        [data-framer-component-type=PageContentWrapper]>*,
+        [data-framer-component-type=PageContentWrapper]>[data-framer-component-type] {
+            position: relative
+        }
+
+        [data-framer-component-type=DeviceComponent].no-device>* {
+            width: 100% !important;
+            height: 100% !important
+        }
+
+        [data-is-present=false],
+        [data-is-present=false] * {
+            pointer-events: none !important
+        }
+
+        [data-framer-cursor=pointer] {
+            cursor: pointer
+        }
+
+        [data-framer-cursor=grab] {
+            cursor: grab
+        }
+
+        [data-framer-cursor=grab]:active {
+            cursor: grabbing
+        }
+
+        [data-framer-component-type=Frame] *,
+        [data-framer-component-type=Stack] * {
+            pointer-events: auto
+        }
+
+        [data-framer-generated] * {
+            pointer-events: unset
+        }
+
+        .svgContainer svg {
+            display: block
+        }
+
+        [data-reset=button] {
+            border-width: 0;
+            padding: 0;
+            background: none
+        }
+
+        [data-hide-scrollbars=true]::-webkit-scrollbar {
+            width: 0px;
+            height: 0px
+        }
+
+        [data-hide-scrollbars=true]::-webkit-scrollbar-thumb {
+            background: transparent
+        }
+
+        [data-hide-scrollbars=true] {
+            scrollbar-width: none
+        }
+
+        .framer-cursor-none,
+        .framer-cursor-none * {
+            cursor: none !important
+        }
+
+        .framer-pointer-events-none,
+        .framer-pointer-events-none * {
+            pointer-events: none !important
+        }
+
+        .framer-Dyaro.framer-her99z,
+        .framer-Dyaro .framer-her99z {
+            display: block
+        }
+
+        .framer-Dyaro.framer-k8wtuh {
+            align-content: center;
+            align-items: center;
+            background-color: var(--token-22175c2f-3a09-463a-8942-f7624f8a969b, #f9fafa);
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 0px;
+            height: min-content;
+            justify-content: flex-start;
+            overflow: hidden;
+            padding: 0;
+            position: relative;
+            width: 1200px
+        }
+
+        .framer-Dyaro .framer-2od0ph-container {
+            flex: none;
+            height: 90px;
+            left: calc(50.00000000000002% - min(1280px, 100%) / 2);
+            max-width: 1280px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1
+        }
+
+        .framer-Dyaro .framer-1wj2dtb-container {
+            flex: none;
+            height: auto;
+            max-width: 1280px;
+            position: relative;
+            width: 100%
+        }
+
+        .framer-Dyaro .framer-wnhqel {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex: none;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 40px;
+            height: 60vh;
+            justify-content: center;
+            overflow: hidden;
+            padding: 48px 100px 96px;
+            position: relative;
+            width: 100%
+        }
+
+        .framer-Dyaro .framer-swj18f {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex: none;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 40px;
+            height: min-content;
+            justify-content: center;
+            max-width: 1200px;
+            overflow: hidden;
+            padding: 0;
+            position: relative;
+            width: 100%
+        }
+
+        .framer-Dyaro .framer-ln1mic {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex: none;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 20px;
+            height: min-content;
+            justify-content: center;
+            max-width: 700px;
+            overflow: hidden;
+            padding: 0;
+            position: relative;
+            width: 100%
+        }
+
+        .framer-Dyaro .framer-1m7m2l1,
+        .framer-Dyaro .framer-mu53o2 {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex: none;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 40px;
+            height: min-content;
+            justify-content: flex-start;
+            overflow: hidden;
+            padding: 0;
+            position: relative;
+            width: 100%
+        }
+
+        .framer-Dyaro .framer-ay5bfq {
+            --framer-link-text-color: #0099ff;
+            --framer-link-text-decoration: underline;
+            flex: none;
+            height: auto;
+            position: relative;
+            white-space: pre-wrap;
+            width: 80%;
+            word-break: break-word;
+            word-wrap: break-word
+        }
+
+        .framer-Dyaro .framer-bosfcu {
+            align-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            flex: 1 0 0px;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 28px;
+            height: min-content;
+            justify-content: flex-start;
+            overflow: hidden;
+            padding: 0;
+            position: relative;
+            width: 1px
+        }
+
+        .framer-Dyaro .framer-q558y8 {
+            flex: none;
+            height: auto;
+            position: relative;
+            white-space: pre-wrap;
+            width: 100%;
+            word-break: break-word;
+            word-wrap: break-word
+        }
+
+        .framer-Dyaro .framer-j3ud00-container {
+            flex: none;
+            height: auto;
+            position: relative;
+            width: 100%
+        }
+
+        @supports (background: -webkit-named-image(i)) and (not (scale:1)) {
+
+            .framer-Dyaro.framer-k8wtuh,
+            .framer-Dyaro .framer-wnhqel,
+            .framer-Dyaro .framer-swj18f,
+            .framer-Dyaro .framer-ln1mic,
+            .framer-Dyaro .framer-1m7m2l1,
+            .framer-Dyaro .framer-mu53o2,
+            .framer-Dyaro .framer-bosfcu {
+                gap: 0px
+            }
+
+            .framer-Dyaro.framer-k8wtuh>* {
+                margin: 0
+            }
+
+            .framer-Dyaro.framer-k8wtuh>:first-child,
+            .framer-Dyaro .framer-wnhqel>:first-child,
+            .framer-Dyaro .framer-swj18f>:first-child,
+            .framer-Dyaro .framer-ln1mic>:first-child,
+            .framer-Dyaro .framer-bosfcu>:first-child {
+                margin-top: 0
+            }
+
+            .framer-Dyaro.framer-k8wtuh>:last-child,
+            .framer-Dyaro .framer-wnhqel>:last-child,
+            .framer-Dyaro .framer-swj18f>:last-child,
+            .framer-Dyaro .framer-ln1mic>:last-child,
+            .framer-Dyaro .framer-bosfcu>:last-child {
+                margin-bottom: 0
+            }
+
+            .framer-Dyaro .framer-wnhqel>*,
+            .framer-Dyaro .framer-swj18f>* {
+                margin: 20px 0
+            }
+
+            .framer-Dyaro .framer-ln1mic>* {
+                margin: 10px 0
+            }
+
+            .framer-Dyaro .framer-1m7m2l1>*,
+            .framer-Dyaro .framer-mu53o2>* {
+                margin: 0 20px
+            }
+
+            .framer-Dyaro .framer-1m7m2l1>:first-child,
+            .framer-Dyaro .framer-mu53o2>:first-child {
+                margin-left: 0
+            }
+
+            .framer-Dyaro .framer-1m7m2l1>:last-child,
+            .framer-Dyaro .framer-mu53o2>:last-child {
+                margin-right: 0
+            }
+
+            .framer-Dyaro .framer-bosfcu>* {
+                margin: 14px 0
+            }
+        }
+
+        .framer-ZEyqD .framer-styles-preset-1sksvyh:not(.rich-text-wrapper),
+        .framer-ZEyqD .framer-styles-preset-1sksvyh.rich-text-wrapper h3 {
+            --framer-font-family: "Manrope", "Manrope Placeholder", sans-serif;
+            --framer-font-family-bold: "Manrope", "Manrope Placeholder", sans-serif;
+            --framer-font-open-type-features: normal;
+            --framer-font-size: 16px;
+            --framer-font-style: normal;
+            --framer-font-style-bold: normal;
+            --framer-font-variation-axes: normal;
+            --framer-font-weight: 500;
+            --framer-font-weight-bold: 700;
+            --framer-letter-spacing: 0em;
+            --framer-line-height: 1.3em;
+            --framer-paragraph-spacing: 40px;
+            --framer-text-alignment: start;
+            --framer-text-color: var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, #22262f);
+            --framer-text-decoration: none;
+            --framer-text-stroke-color: initial;
+            --framer-text-stroke-width: initial;
+            --framer-text-transform: none
+        }
+
+        @media (max-width: 1199px) and (min-width: 810px) {
+
+            .framer-ZEyqD .framer-styles-preset-1sksvyh:not(.rich-text-wrapper),
+            .framer-ZEyqD .framer-styles-preset-1sksvyh.rich-text-wrapper h3 {
+                --framer-font-family: "Manrope", "Manrope Placeholder", sans-serif;
+                --framer-font-family-bold: "Manrope", "Manrope Placeholder", sans-serif;
+                --framer-font-open-type-features: normal;
+                --framer-font-size: 30px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 500;
+                --framer-font-weight-bold: 700;
+                --framer-letter-spacing: 0em;
+                --framer-line-height: 1.3em;
+                --framer-paragraph-spacing: 40px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, #22262f);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }
+        }
+
+        @media (max-width: 809px) and (min-width: 0px) {
+
+            .framer-ZEyqD .framer-styles-preset-1sksvyh:not(.rich-text-wrapper),
+            .framer-ZEyqD .framer-styles-preset-1sksvyh.rich-text-wrapper h3 {
+                --framer-font-family: "Manrope", "Manrope Placeholder", sans-serif;
+                --framer-font-family-bold: "Manrope", "Manrope Placeholder", sans-serif;
+                --framer-font-open-type-features: normal;
+                --framer-font-size: 25px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 500;
+                --framer-font-weight-bold: 700;
+                --framer-letter-spacing: 0em;
+                --framer-line-height: 1.3em;
+                --framer-paragraph-spacing: 40px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, #22262f);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }
+        }
+
+        .framer-KNyyC .framer-styles-preset-1y1gyft:not(.rich-text-wrapper),
+        .framer-KNyyC .framer-styles-preset-1y1gyft.rich-text-wrapper p {
+            --framer-font-family: "Manrope", "Manrope Placeholder", sans-serif;
+            --framer-font-family-bold: "Manrope", "Manrope Placeholder", sans-serif;
+            --framer-font-open-type-features: normal;
+            --framer-font-size: 16px;
+            --framer-font-style: normal;
+            --framer-font-style-bold: normal;
+            --framer-font-variation-axes: normal;
+            --framer-font-weight: 400;
+            --framer-font-weight-bold: 700;
+            --framer-letter-spacing: 0em;
+            --framer-line-height: 1.6em;
+            --framer-paragraph-spacing: 10px;
+            --framer-text-alignment: start;
+            --framer-text-color: var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, #384250);
+            --framer-text-decoration: none;
+            --framer-text-stroke-color: initial;
+            --framer-text-stroke-width: initial;
+            --framer-text-transform: none
+        }
+
+        @media (max-width: 1199px) and (min-width: 810px) {
+
+            .framer-KNyyC .framer-styles-preset-1y1gyft:not(.rich-text-wrapper),
+            .framer-KNyyC .framer-styles-preset-1y1gyft.rich-text-wrapper p {
+                --framer-font-family: "Manrope", "Manrope Placeholder", sans-serif;
+                --framer-font-family-bold: "Manrope", "Manrope Placeholder", sans-serif;
+                --framer-font-open-type-features: normal;
+                --framer-font-size: 18px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-letter-spacing: 0em;
+                --framer-line-height: 1.6em;
+                --framer-paragraph-spacing: 10px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, #384250);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }
+        }
+
+        @media (max-width: 809px) and (min-width: 0px) {
+
+            .framer-KNyyC .framer-styles-preset-1y1gyft:not(.rich-text-wrapper),
+            .framer-KNyyC .framer-styles-preset-1y1gyft.rich-text-wrapper p {
+                --framer-font-family: "Manrope", "Manrope Placeholder", sans-serif;
+                --framer-font-family-bold: "Manrope", "Manrope Placeholder", sans-serif;
+                --framer-font-open-type-features: normal;
+                --framer-font-size: 18px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-letter-spacing: 0em;
+                --framer-line-height: 1.6em;
+                --framer-paragraph-spacing: 10px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, #384250);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }
+        }
+
+        .framer-aEFZw .framer-styles-preset-1x20b2f:not(.rich-text-wrapper),
+        .framer-aEFZw .framer-styles-preset-1x20b2f.rich-text-wrapper a {
+            --framer-link-current-text-decoration: none;
+            --framer-link-hover-text-color: var(--token-ce2e7739-d2ec-4f54-8930-15144ae6239e, #afafac);
+            --framer-link-hover-text-decoration: underline;
+            --framer-link-text-color: #4a4a45;
+            --framer-link-text-decoration: underline
+        }
+
+        @media (min-width: 810px) and (max-width: 1199px) {
+            .framer-Dyaro.framer-k8wtuh {
+                width: 810px
+            }
+
+            .framer-Dyaro .framer-2od0ph-container {
+                left: calc(50.00000000000002% - min(1280px, 1fr) / 2)
+            }
+
+            .framer-Dyaro .framer-wnhqel {
+                padding: 50px 40px 100px
+            }
+
+            .framer-Dyaro .framer-bosfcu {
+                max-width: 90%
+            }
+        }
+
+        @media (max-width: 809px) {
+            .framer-Dyaro.framer-k8wtuh {
+                width: 390px
+            }
+
+            .framer-Dyaro .framer-2od0ph-container {
+                height: auto;
+                left: 50%;
+                transform: translate(-50%)
+            }
+
+            .framer-Dyaro .framer-wnhqel {
+                padding: 50px 20px 100px
+            }
+
+            .framer-Dyaro .framer-ln1mic {
+                justify-content: flex-start
+            }
+
+            .framer-Dyaro .framer-bosfcu {
+                max-width: 100%
+            }
+        }
+
+        .framer-locale-picker {
+            position: relative
+        }
+
+        .framer-locale-picker label {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            white-space: nowrap;
+            clip: rect(0 0 0 0);
+            clip-path: inset(50%)
+        }
+
+        .framer-locale-picker select {
+            appearance: none;
+            position: absolute;
+            opacity: 0;
+            inset: 0;
+            cursor: inherit;
+            width: 100%
+        }
+
+        .framer-locale-picker .input {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+            background-color: var(--framer-background-color);
+            color: var(--framer-color);
+            border-color: var(--framer-border-color)
+        }
+
+        .framer-locale-picker select:focus-visible+.input {
+            outline: var(--framer-focus-outline, none);
+            outline-offset: var(--framer-focus-outline-offset)
+        }
+
+        .framer-locale-picker:hover .input {
+            background-color: var(--framer-hover-background-color, var(--framer-background-color));
+            color: var(--framer-hover-color, var(--framer-color));
+            border-color: var(--framer-hover-border-color, var(--framer-border-color))
+        }
+
+        .framer-locale-picker .title {
+            flex: 1 1 auto;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden
+        }
+
+        .framer-locale-picker .icon,
+        .framer-locale-picker .caret {
+            display: flex;
+            align-items: center
+        }
+
+        .framer-ZV6Nz.framer-38fmzx,
+        .framer-ZV6Nz .framer-38fmzx {
+            display: block
+        }
+
+        .framer-ZV6Nz.framer-1t57s68 {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            height: 90px;
+            justify-content: space-between;
+            max-width: 1280px;
+            overflow: hidden;
+            padding: 12px 50px 12px 96px;
+            position: relative;
+            width: 1200px
+        }
+
+        .framer-ZV6Nz .framer-zahcv3 {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex: 1 0 0px;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 10px;
+            height: min-content;
+            justify-content: center;
+            max-width: 1280px;
+            overflow: visible;
+            padding: 0;
+            position: relative;
+            width: 1px
+        }
+
+        .framer-ZV6Nz .framer-199azkv {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex: 1 0 0px;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 30px;
+            height: min-content;
+            justify-content: flex-start;
+            overflow: visible;
+            padding: 0;
+            position: relative;
+            width: 1px
+        }
+
+        .framer-ZV6Nz .framer-10k5g58,
+        .framer-ZV6Nz .framer-b0tykn {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex: none;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 30px;
+            height: min-content;
+            justify-content: center;
+            overflow: visible;
+            padding: 0;
+            position: relative;
+            width: min-content
+        }
+
+        .framer-ZV6Nz .framer-2b32k0,
+        .framer-ZV6Nz .framer-3m2lat {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex: none;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 16px;
+            height: min-content;
+            justify-content: center;
+            overflow: visible;
+            padding: 0;
+            position: relative;
+            width: min-content
+        }
+
+        .framer-ZV6Nz .framer-1jomsff,
+        .framer-ZV6Nz .framer-1lmfac0,
+        .framer-ZV6Nz .framer-1hf6hur,
+        .framer-ZV6Nz .framer-1f1z2z1 {
+            -webkit-user-select: none;
+            cursor: pointer;
+            flex: none;
+            height: auto;
+            position: relative;
+            user-select: none;
+            white-space: pre;
+            width: auto
+        }
+
+        .framer-ZV6Nz .framer-1fw4vj6 {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex: 1 0 0px;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 30px;
+            height: min-content;
+            justify-content: flex-end;
+            overflow: visible;
+            padding: 0;
+            position: relative;
+            width: 1px
+        }
+
+        .framer-ZV6Nz .framer-705apl-container {
+            flex: none;
+            height: auto;
+            position: relative;
+            width: 120px
+        }
+
+        .framer-ZV6Nz .framer-nahljb,
+        .framer-ZV6Nz .framer-1wqnww1 {
+            -webkit-user-select: none;
+            flex: none;
+            height: auto;
+            position: relative;
+            user-select: none;
+            white-space: pre;
+            width: auto
+        }
+
+        @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+
+            .framer-ZV6Nz .framer-zahcv3,
+            .framer-ZV6Nz .framer-199azkv,
+            .framer-ZV6Nz .framer-10k5g58,
+            .framer-ZV6Nz .framer-2b32k0,
+            .framer-ZV6Nz .framer-1fw4vj6,
+            .framer-ZV6Nz .framer-b0tykn,
+            .framer-ZV6Nz .framer-3m2lat {
+                gap: 0px
+            }
+
+            .framer-ZV6Nz .framer-zahcv3>* {
+                margin: 0 5px
+            }
+
+            .framer-ZV6Nz .framer-zahcv3>:first-child,
+            .framer-ZV6Nz .framer-199azkv>:first-child,
+            .framer-ZV6Nz .framer-10k5g58>:first-child,
+            .framer-ZV6Nz .framer-2b32k0>:first-child,
+            .framer-ZV6Nz .framer-1fw4vj6>:first-child,
+            .framer-ZV6Nz .framer-b0tykn>:first-child,
+            .framer-ZV6Nz .framer-3m2lat>:first-child {
+                margin-left: 0
+            }
+
+            .framer-ZV6Nz .framer-zahcv3>:last-child,
+            .framer-ZV6Nz .framer-199azkv>:last-child,
+            .framer-ZV6Nz .framer-10k5g58>:last-child,
+            .framer-ZV6Nz .framer-2b32k0>:last-child,
+            .framer-ZV6Nz .framer-1fw4vj6>:last-child,
+            .framer-ZV6Nz .framer-b0tykn>:last-child,
+            .framer-ZV6Nz .framer-3m2lat>:last-child {
+                margin-right: 0
+            }
+
+            .framer-ZV6Nz .framer-199azkv>*,
+            .framer-ZV6Nz .framer-10k5g58>*,
+            .framer-ZV6Nz .framer-1fw4vj6>*,
+            .framer-ZV6Nz .framer-b0tykn>* {
+                margin: 0 15px
+            }
+
+            .framer-ZV6Nz .framer-2b32k0>*,
+            .framer-ZV6Nz .framer-3m2lat>* {
+                margin: 0 8px
+            }
+        }
+
+        .framer-ZV6Nz.framer-v-ldmqpd.framer-1t57s68 {
+            padding: 12px 40px;
+            width: 810px
+        }
+
+        .framer-ZV6Nz.framer-v-l1i5do.framer-1t57s68 {
+            flex-direction: column;
+            gap: 39px;
+            height: min-content;
+            justify-content: flex-start;
+            padding: 12px 20px;
+            width: 390px
+        }
+
+        .framer-ZV6Nz.framer-v-l1i5do .framer-zahcv3,
+        .framer-ZV6Nz.framer-v-wqnbad .framer-zahcv3 {
+            flex: none;
+            width: 100%
+        }
+
+        .framer-ZV6Nz.framer-v-l1i5do .framer-199azkv {
+            gap: unset;
+            justify-content: space-between
+        }
+
+        @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+
+            .framer-ZV6Nz.framer-v-l1i5do.framer-1t57s68,
+            .framer-ZV6Nz.framer-v-l1i5do .framer-199azkv {
+                gap: 0px
+            }
+
+            .framer-ZV6Nz.framer-v-l1i5do.framer-1t57s68>* {
+                margin: 19.5px 0
+            }
+
+            .framer-ZV6Nz.framer-v-l1i5do.framer-1t57s68>:first-child {
+                margin-top: 0
+            }
+
+            .framer-ZV6Nz.framer-v-l1i5do.framer-1t57s68>:last-child {
+                margin-bottom: 0
+            }
+
+            .framer-ZV6Nz.framer-v-l1i5do .framer-199azkv>*,
+            .framer-ZV6Nz.framer-v-l1i5do .framer-199azkv>:first-child,
+            .framer-ZV6Nz.framer-v-l1i5do .framer-199azkv>:last-child {
+                margin: 0
+            }
+        }
+
+        .framer-ZV6Nz.framer-v-wqnbad.framer-1t57s68 {
+            flex-direction: column;
+            gap: 39px;
+            height: min-content;
+            justify-content: flex-start;
+            max-height: calc(var(--framer-viewport-height, 100vh) * 1);
+            overflow: auto;
+            overscroll-behavior: contain;
+            padding: 12px 20px;
+            width: 390px
+        }
+
+        .framer-ZV6Nz.framer-v-wqnbad .framer-1fw4vj6 {
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 30px 0 50px
+        }
+
+        .framer-ZV6Nz.framer-v-wqnbad .framer-b0tykn {
+            flex-direction: column;
+            gap: 50px;
+            width: 100%
+        }
+
+        .framer-ZV6Nz.framer-v-wqnbad .framer-3m2lat {
+            flex-direction: column;
+            gap: 40px;
+            width: 100%
+        }
+
+        @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+
+            .framer-ZV6Nz.framer-v-wqnbad.framer-1t57s68,
+            .framer-ZV6Nz.framer-v-wqnbad .framer-1fw4vj6,
+            .framer-ZV6Nz.framer-v-wqnbad .framer-b0tykn,
+            .framer-ZV6Nz.framer-v-wqnbad .framer-3m2lat {
+                gap: 0px
+            }
+
+            .framer-ZV6Nz.framer-v-wqnbad.framer-1t57s68>* {
+                margin: 19.5px 0
+            }
+
+            .framer-ZV6Nz.framer-v-wqnbad.framer-1t57s68>:first-child,
+            .framer-ZV6Nz.framer-v-wqnbad .framer-1fw4vj6>:first-child,
+            .framer-ZV6Nz.framer-v-wqnbad .framer-b0tykn>:first-child,
+            .framer-ZV6Nz.framer-v-wqnbad .framer-3m2lat>:first-child {
+                margin-top: 0
+            }
+
+            .framer-ZV6Nz.framer-v-wqnbad.framer-1t57s68>:last-child,
+            .framer-ZV6Nz.framer-v-wqnbad .framer-1fw4vj6>:last-child,
+            .framer-ZV6Nz.framer-v-wqnbad .framer-b0tykn>:last-child,
+            .framer-ZV6Nz.framer-v-wqnbad .framer-3m2lat>:last-child {
+                margin-bottom: 0
+            }
+
+            .framer-ZV6Nz.framer-v-wqnbad .framer-1fw4vj6>* {
+                margin: 15px 0
+            }
+
+            .framer-ZV6Nz.framer-v-wqnbad .framer-b0tykn>* {
+                margin: 25px 0
+            }
+
+            .framer-ZV6Nz.framer-v-wqnbad .framer-3m2lat>* {
+                margin: 20px 0
+            }
+        }
+
+        .framer-yjIZj .framer-styles-preset-1lw30e1:not(.rich-text-wrapper),
+        .framer-yjIZj .framer-styles-preset-1lw30e1.rich-text-wrapper a {
+            --framer-link-current-text-color: var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, #2a2a28);
+            --framer-link-current-text-decoration: none;
+            --framer-link-hover-text-color: #828282;
+            --framer-link-hover-text-decoration: none;
+            --framer-link-text-color: #4a4a45;
+            --framer-link-text-decoration: none
+        }
+
+        .framer-BYxNE .framer-styles-preset-10zuflf:not(.rich-text-wrapper),
+        .framer-BYxNE .framer-styles-preset-10zuflf.rich-text-wrapper h4 {
+            --framer-font-family: "Manrope", "Manrope Placeholder", sans-serif;
+            --framer-font-family-bold: "Inter", sans-serif;
+            --framer-font-family-bold-italic: "Inter", sans-serif;
+            --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+            --framer-font-size: 24px;
+            --framer-font-style: normal;
+            --framer-font-style-bold: normal;
+            --framer-font-style-bold-italic: italic;
+            --framer-font-style-italic: italic;
+            --framer-font-weight: 500;
+            --framer-font-weight-bold: 900;
+            --framer-font-weight-bold-italic: 900;
+            --framer-font-weight-italic: 700;
+            --framer-letter-spacing: 0em;
+            --framer-line-height: 1.4em;
+            --framer-paragraph-spacing: 40px;
+            --framer-text-alignment: start;
+            --framer-text-color: var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, #2a2a28);
+            --framer-text-decoration: none;
+            --framer-text-transform: none
+        }
+
+        @media (max-width: 1199px) and (min-width: 810px) {
+
+            .framer-BYxNE .framer-styles-preset-10zuflf:not(.rich-text-wrapper),
+            .framer-BYxNE .framer-styles-preset-10zuflf.rich-text-wrapper h4 {
+                --framer-font-family: "Manrope", "Manrope Placeholder", sans-serif;
+                --framer-font-family-bold: "Inter", sans-serif;
+                --framer-font-family-bold-italic: "Inter", sans-serif;
+                --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+                --framer-font-size: 24px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-style-bold-italic: italic;
+                --framer-font-style-italic: italic;
+                --framer-font-weight: 500;
+                --framer-font-weight-bold: 900;
+                --framer-font-weight-bold-italic: 900;
+                --framer-font-weight-italic: 700;
+                --framer-letter-spacing: 0em;
+                --framer-line-height: 1.4em;
+                --framer-paragraph-spacing: 40px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, #2a2a28);
+                --framer-text-decoration: none;
+                --framer-text-transform: none
+            }
+        }
+
+        @media (max-width: 809px) and (min-width: 0px) {
+
+            .framer-BYxNE .framer-styles-preset-10zuflf:not(.rich-text-wrapper),
+            .framer-BYxNE .framer-styles-preset-10zuflf.rich-text-wrapper h4 {
+                --framer-font-family: "Manrope", "Manrope Placeholder", sans-serif;
+                --framer-font-family-bold: "Inter", sans-serif;
+                --framer-font-family-bold-italic: "Inter", sans-serif;
+                --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+                --framer-font-size: 20px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-style-bold-italic: italic;
+                --framer-font-style-italic: italic;
+                --framer-font-weight: 500;
+                --framer-font-weight-bold: 900;
+                --framer-font-weight-bold-italic: 900;
+                --framer-font-weight-italic: 700;
+                --framer-letter-spacing: 0em;
+                --framer-line-height: 1.4em;
+                --framer-paragraph-spacing: 40px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, #2a2a28);
+                --framer-text-decoration: none;
+                --framer-text-transform: none
+            }
+        }
+
+        .framer-ttwf0.framer-19sr8s3,
+        .framer-ttwf0 .framer-19sr8s3 {
+            display: block
+        }
+
+        .framer-ttwf0.framer-1cna20u {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 48px;
+            height: min-content;
+            justify-content: center;
+            max-width: 1280px;
+            overflow: visible;
+            padding: 96px 100px 48px 96px;
+            position: relative;
+            width: 1200px
+        }
+
+        .framer-ttwf0 .framer-19uncy9 {
+            align-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            flex: none;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 40px;
+            height: min-content;
+            justify-content: center;
+            max-width: 1800px;
+            overflow: visible;
+            padding: 0;
+            position: relative;
+            width: 100%
+        }
+
+        .framer-ttwf0 .framer-1wtvh2k {
+            align-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            flex: none;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 20px;
+            height: min-content;
+            justify-content: flex-start;
+            overflow: visible;
+            padding: 5px 0 0;
+            position: relative;
+            width: 100%
+        }
+
+        .framer-ttwf0 .framer-1jcoeu0 {
+            flex: none;
+            height: 32px;
+            overflow: visible;
+            position: relative;
+            text-decoration: none;
+            width: 32px
+        }
+
+        .framer-ttwf0 .framer-offivp {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex: none;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 6px;
+            height: min-content;
+            justify-content: center;
+            overflow: hidden;
+            padding: 0;
+            position: relative;
+            width: 100%
+        }
+
+        .framer-ttwf0 .framer-1vn56tq,
+        .framer-ttwf0 .framer-1r9ulxh {
+            flex: none;
+            height: auto;
+            max-width: 1200px;
+            position: relative;
+            white-space: pre-wrap;
+            width: 100%;
+            word-break: break-word;
+            word-wrap: break-word
+        }
+
+        @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+
+            .framer-ttwf0.framer-1cna20u,
+            .framer-ttwf0 .framer-19uncy9,
+            .framer-ttwf0 .framer-1wtvh2k,
+            .framer-ttwf0 .framer-offivp {
+                gap: 0px
+            }
+
+            .framer-ttwf0.framer-1cna20u>* {
+                margin: 24px 0
+            }
+
+            .framer-ttwf0.framer-1cna20u>:first-child,
+            .framer-ttwf0 .framer-19uncy9>:first-child,
+            .framer-ttwf0 .framer-1wtvh2k>:first-child,
+            .framer-ttwf0 .framer-offivp>:first-child {
+                margin-top: 0
+            }
+
+            .framer-ttwf0.framer-1cna20u>:last-child,
+            .framer-ttwf0 .framer-19uncy9>:last-child,
+            .framer-ttwf0 .framer-1wtvh2k>:last-child,
+            .framer-ttwf0 .framer-offivp>:last-child {
+                margin-bottom: 0
+            }
+
+            .framer-ttwf0 .framer-19uncy9>* {
+                margin: 20px 0
+            }
+
+            .framer-ttwf0 .framer-1wtvh2k>* {
+                margin: 10px 0
+            }
+
+            .framer-ttwf0 .framer-offivp>* {
+                margin: 3px 0
+            }
+        }
+
+        .framer-ttwf0.framer-v-yjoshv.framer-1cna20u {
+            padding: 96px 40px 80px;
+            width: 810px
+        }
+
+        .framer-ttwf0.framer-v-yjoshv .framer-19uncy9 {
+            justify-content: flex-start;
+            max-width: 100%
+        }
+
+        .framer-ttwf0.framer-v-yjoshv .framer-1vn56tq,
+        .framer-ttwf0.framer-v-yjoshv .framer-1r9ulxh,
+        .framer-ttwf0.framer-v-19ukegg .framer-1vn56tq,
+        .framer-ttwf0.framer-v-19ukegg .framer-1r9ulxh {
+            max-width: 100%
+        }
+
+        .framer-ttwf0.framer-v-19ukegg.framer-1cna20u {
+            padding: 32px 0;
+            width: 390px
+        }
+
+        .framer-ttwf0.framer-v-19ukegg .framer-19uncy9 {
+            align-content: center;
+            align-items: center;
+            gap: 56px;
+            max-width: 100%;
+            order: 0;
+            padding: 60px 20px 0
+        }
+
+        .framer-ttwf0.framer-v-19ukegg .framer-1wtvh2k {
+            gap: 30px
+        }
+
+        @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+
+            .framer-ttwf0.framer-v-19ukegg .framer-19uncy9,
+            .framer-ttwf0.framer-v-19ukegg .framer-1wtvh2k {
+                gap: 0px
+            }
+
+            .framer-ttwf0.framer-v-19ukegg .framer-19uncy9>* {
+                margin: 28px 0
+            }
+
+            .framer-ttwf0.framer-v-19ukegg .framer-19uncy9>:first-child,
+            .framer-ttwf0.framer-v-19ukegg .framer-1wtvh2k>:first-child {
+                margin-top: 0
+            }
+
+            .framer-ttwf0.framer-v-19ukegg .framer-19uncy9>:last-child,
+            .framer-ttwf0.framer-v-19ukegg .framer-1wtvh2k>:last-child {
+                margin-bottom: 0
+            }
+
+            .framer-ttwf0.framer-v-19ukegg .framer-1wtvh2k>* {
+                margin: 15px 0
+            }
+        }
+
+        .framer-P6vcm .framer-styles-preset-2pqig1:not(.rich-text-wrapper),
+        .framer-P6vcm .framer-styles-preset-2pqig1.rich-text-wrapper h5 {
+            --framer-font-family: "Manrope", "Manrope Placeholder", sans-serif;
+            --framer-font-family-bold: "Inter", sans-serif;
+            --framer-font-family-bold-italic: "Inter", sans-serif;
+            --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+            --framer-font-size: 20px;
+            --framer-font-style: normal;
+            --framer-font-style-bold: normal;
+            --framer-font-style-bold-italic: italic;
+            --framer-font-style-italic: italic;
+            --framer-font-weight: 500;
+            --framer-font-weight-bold: 900;
+            --framer-font-weight-bold-italic: 900;
+            --framer-font-weight-italic: 700;
+            --framer-letter-spacing: 0em;
+            --framer-line-height: 1.4em;
+            --framer-paragraph-spacing: 40px;
+            --framer-text-alignment: start;
+            --framer-text-color: var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, #2a2a28);
+            --framer-text-decoration: none;
+            --framer-text-transform: none
+        }
+
+        .ssr-variant {
+            display: contents
+        }
+
+        @supports (aspect-ratio: 1) {
+            body {
+                --framer-aspect-ratio-supported: auto
+            }
+        }
+
+        .framer-lkBrL.framer-k21ek4,
+        .framer-lkBrL .framer-k21ek4 {
+            display: block
+        }
+
+        .framer-lkBrL.framer-7k587i {
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            height: 132px;
+            justify-content: space-between;
+            overflow: hidden;
+            padding: 40px 50px;
+            position: relative;
+            width: 1200px
+        }
+
+        .framer-lkBrL .framer-pazvum {
+            flex: none;
+            height: 1px;
+            max-width: 1280px;
+            overflow: visible;
+            position: relative;
+            width: 100%;
+            z-index: 1
+        }
+
+        .framer-lkBrL .framer-navicy {
+            flex: none;
+            height: auto;
+            position: relative;
+            white-space: pre;
+            width: auto
+        }
+
+        .framer-lkBrL.framer-v-1p94by5.framer-7k587i {
+            padding: 40px;
+            width: 810px
+        }
+
+        .framer-lkBrL.framer-v-e3qmwl.framer-7k587i {
+            gap: 50px;
+            height: min-content;
+            justify-content: center;
+            padding: 50px 20px 40px;
+            width: 390px
+        }
+
+        @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+            .framer-lkBrL.framer-v-e3qmwl.framer-7k587i {
+                gap: 0px
+            }
+
+            .framer-lkBrL.framer-v-e3qmwl.framer-7k587i>* {
+                margin: 25px 0
+            }
+
+            .framer-lkBrL.framer-v-e3qmwl.framer-7k587i>:first-child {
+                margin-top: 0
+            }
+
+            .framer-lkBrL.framer-v-e3qmwl.framer-7k587i>:last-child {
+                margin-bottom: 0
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <script async src="https://events.framer.com/script?v=1"
+        data-fid="0f172698782074d52b0ef45eecb51a86161c6ae882b2dd9c3e71a1070532a12f" data-no-nt></script>
+
+
+
+    <div id="main"
+        data-framer-hydrate-v2="{&quot;routeId&quot;:&quot;S6V7gcAeq&quot;,&quot;localeId&quot;:&quot;GJMWUPzu5&quot;,&quot;breakpoints&quot;:[{&quot;hash&quot;:&quot;k8wtuh&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 1200px)&quot;},{&quot;hash&quot;:&quot;3mpir4&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 810px) and (max-width: 1199px)&quot;},{&quot;hash&quot;:&quot;sxb98b&quot;,&quot;mediaQuery&quot;:&quot;(max-width: 809px)&quot;}]}"
+        data-framer-ssr-released-at="2025-04-21T17:14:10.950Z" data-framer-page-optimized-at="2025-04-21T17:35:13.239Z">
+        <style data-framer-html-style>
+            html body {
+                background: var(--token-22175c2f-3a09-463a-8942-f7624f8a969b, rgb(249, 250, 250));
+            }
+        </style>
+        <div data-framer-root class="framer-Dyaro framer-ZEyqD framer-P6vcm framer-KNyyC framer-aEFZw framer-k8wtuh"
+            style="min-height:100vh;width:auto">
+            <div class="ssr-variant hidden-sxb98b">
+                <div class="framer-2od0ph-container"
+                    style="will-change:transform;opacity:1;transform:perspective(1200px)">
+                    <div class="ssr-variant hidden-3mpir4">
+                        <nav class="framer-ZV6Nz framer-yjIZj framer-BYxNE framer-1t57s68 framer-v-1t57s68"
+                            data-framer-name="Desktop"
+                            style="backdrop-filter:blur(50px);background-color:var(--token-22175c2f-3a09-463a-8942-f7624f8a969b, rgb(237, 244, 242));-webkit-backdrop-filter:blur(50px);height:100%;max-width:100%;width:100%">
+                            <div class="framer-zahcv3">
+                                <div class="framer-199azkv" data-framer-name="Links">
+                                    <div class="framer-10k5g58">
+                                        <div class="framer-2b32k0" data-framer-name="Links">
+                                            <div class="framer-1jomsff" data-highlight="true"
+                                                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));transform:none"
+                                                data-framer-component-type="RichTextContainer" tabindex="0">
+                                                <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-letter-spacing:-0.01em;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))"
+                                                    class="framer-text"><a
+                                                        class="framer-text framer-styles-preset-1lw30e1"
+                                                        data-styles-preset="elAPnpNjR" href="./">Home</a></p>
+                                            </div>
+                                            <div class="framer-1lmfac0" data-highlight="true"
+                                                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));transform:none"
+                                                data-framer-component-type="RichTextContainer" tabindex="0">
+                                                <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-letter-spacing:-0.01em;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))"
+                                                    class="framer-text"><a
+                                                        class="framer-text framer-styles-preset-1lw30e1"
+                                                        data-styles-preset="elAPnpNjR" href="./about">About</a></p>
+                                            </div>
+                                            <div class="framer-1hf6hur" data-highlight="true"
+                                                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));transform:none"
+                                                data-framer-component-type="RichTextContainer" tabindex="0">
+                                                <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-letter-spacing:-0.01em;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))"
+                                                    class="framer-text"><a
+                                                        class="framer-text framer-styles-preset-1lw30e1"
+                                                        data-styles-preset="elAPnpNjR" href="./contact"
+                                                        data-framer-page-link-current="true">Contact</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="framer-1fw4vj6" data-framer-name="Links">
+                                    <div class="framer-b0tykn">
+                                        <div class="framer-3m2lat" data-framer-name="Links">
+                                            <div class="framer-705apl-container">
+                                                <div class="framer-locale-picker" style="width:100%"><label
+                                                        for=":R1adalddln3b8m:">Select Language</label><select
+                                                        id=":R1adalddln3b8m:" autocomplete="off">
+                                                        <option value="GJMWUPzu5" selected>English</option>
+                                                    </select>
+                                                    <div class="input"
+                                                        style="font-family:&quot;Inter&quot;, sans-serif;font-size:14px;font-style:normal;letter-spacing:0em;line-height:1.5em;--framer-background-color:rgb(238, 238, 238);--framer-color:rgb(0, 0, 0);padding:10px;border-radius:10px;border:none;--framer-focus-outline:1px solid rgb(0, 153, 255);--framer-focus-outline-offset:0px;gap:5px">
+                                                        <div class="title">English</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="framer-1f1z2z1" data-highlight="true"
+                                                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));transform:none"
+                                                data-framer-component-type="RichTextContainer" tabindex="0">
+                                                <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-letter-spacing:-0.01em;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))"
+                                                    class="framer-text">ENG</p>
+                                            </div>
+                                            <div class="framer-nahljb"
+                                                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));transform:none"
+                                                data-framer-component-type="RichTextContainer">
+                                                <p style="--framer-font-size:18px;--framer-text-color:var(--extracted-r6o4lv, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))"
+                                                    class="framer-text">ESP</p>
+                                            </div>
+                                            <div class="framer-1wqnww1"
+                                                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));transform:none"
+                                                data-framer-component-type="RichTextContainer">
+                                                <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-letter-spacing:-0.2px;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))"
+                                                    class="framer-text">日本</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="ssr-variant hidden-k8wtuh">
+                        <nav class="framer-ZV6Nz framer-yjIZj framer-BYxNE framer-1t57s68 framer-v-ldmqpd"
+                            data-framer-name="Tablet"
+                            style="backdrop-filter:blur(50px);background-color:var(--token-22175c2f-3a09-463a-8942-f7624f8a969b, rgb(249, 250, 250));-webkit-backdrop-filter:blur(50px);height:100%;max-width:100%;width:100%">
+                            <div class="framer-zahcv3">
+                                <div class="framer-199azkv" data-framer-name="Links">
+                                    <div class="framer-10k5g58">
+                                        <div class="framer-2b32k0" data-framer-name="Links">
+                                            <div class="framer-1jomsff" data-highlight="true"
+                                                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));transform:none"
+                                                data-framer-component-type="RichTextContainer" tabindex="0">
+                                                <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-letter-spacing:-0.01em;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))"
+                                                    class="framer-text"><a
+                                                        class="framer-text framer-styles-preset-1lw30e1"
+                                                        data-styles-preset="elAPnpNjR" href="./">Home</a></p>
+                                            </div>
+                                            <div class="framer-1lmfac0" data-highlight="true"
+                                                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));transform:none"
+                                                data-framer-component-type="RichTextContainer" tabindex="0">
+                                                <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-letter-spacing:-0.01em;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))"
+                                                    class="framer-text"><a
+                                                        class="framer-text framer-styles-preset-1lw30e1"
+                                                        data-styles-preset="elAPnpNjR" href="./about">About</a></p>
+                                            </div>
+                                            <div class="framer-1hf6hur" data-highlight="true"
+                                                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));transform:none"
+                                                data-framer-component-type="RichTextContainer" tabindex="0">
+                                                <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-letter-spacing:-0.01em;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))"
+                                                    class="framer-text"><a
+                                                        class="framer-text framer-styles-preset-1lw30e1"
+                                                        data-styles-preset="elAPnpNjR" href="./contact"
+                                                        data-framer-page-link-current="true">Contact</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="framer-1fw4vj6" data-framer-name="Links">
+                                    <div class="framer-b0tykn">
+                                        <div class="framer-3m2lat" data-framer-name="Links">
+                                            <div class="framer-705apl-container">
+                                                <div class="framer-locale-picker" style="width:100%"><label
+                                                        for=":R1adaldlln3b8m:">Select Language</label><select
+                                                        id=":R1adaldlln3b8m:" autocomplete="off">
+                                                        <option value="GJMWUPzu5" selected>English</option>
+                                                    </select>
+                                                    <div class="input"
+                                                        style="font-family:&quot;Inter&quot;, sans-serif;font-size:14px;font-style:normal;letter-spacing:0em;line-height:1.5em;--framer-background-color:rgb(238, 238, 238);--framer-color:rgb(0, 0, 0);padding:10px;border-radius:10px;border:none;--framer-focus-outline:1px solid rgb(0, 153, 255);--framer-focus-outline-offset:0px;gap:5px">
+                                                        <div class="title">English</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="framer-1f1z2z1" data-highlight="true"
+                                                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));transform:none"
+                                                data-framer-component-type="RichTextContainer" tabindex="0">
+                                                <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-letter-spacing:-0.01em;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))"
+                                                    class="framer-text">ENG</p>
+                                            </div>
+                                            <div class="framer-nahljb"
+                                                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));transform:none"
+                                                data-framer-component-type="RichTextContainer">
+                                                <p style="--framer-font-size:18px;--framer-text-color:var(--extracted-r6o4lv, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))"
+                                                    class="framer-text">ESP</p>
+                                            </div>
+                                            <div class="framer-1wqnww1"
+                                                style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));transform:none"
+                                                data-framer-component-type="RichTextContainer">
+                                                <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-letter-spacing:-0.2px;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))"
+                                                    class="framer-text">日本</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="ssr-variant hidden-k8wtuh hidden-3mpir4">
+                <div class="framer-2od0ph-container"
+                    style="will-change:transform;opacity:1;transform:translateX(-50%) perspective(1200px)">
+                    <nav class="framer-ZV6Nz framer-yjIZj framer-BYxNE framer-1t57s68 framer-v-l1i5do"
+                        data-framer-name="Phone"
+                        style="backdrop-filter:blur(50px);background-color:var(--token-22175c2f-3a09-463a-8942-f7624f8a969b, rgb(249, 250, 250));-webkit-backdrop-filter:blur(50px);max-width:100%;width:100%">
+                        <div class="framer-zahcv3">
+                            <div class="framer-199azkv" data-framer-name="Links">
+                                <div class="framer-10k5g58">
+                                    <div class="framer-2b32k0" data-framer-name="Links">
+                                        <div class="framer-1jomsff" data-highlight="true"
+                                            style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));transform:none"
+                                            data-framer-component-type="RichTextContainer" tabindex="0">
+                                            <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-letter-spacing:-0.01em;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))"
+                                                class="framer-text"><a class="framer-text framer-styles-preset-1lw30e1"
+                                                    data-styles-preset="elAPnpNjR" href="./">Home</a></p>
+                                        </div>
+                                        <div class="framer-1lmfac0" data-highlight="true"
+                                            style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));transform:none"
+                                            data-framer-component-type="RichTextContainer" tabindex="0">
+                                            <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-letter-spacing:-0.01em;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))"
+                                                class="framer-text"><a class="framer-text framer-styles-preset-1lw30e1"
+                                                    data-styles-preset="elAPnpNjR" href="./about">About</a></p>
+                                        </div>
+                                        <div class="framer-1hf6hur" data-highlight="true"
+                                            style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));transform:none"
+                                            data-framer-component-type="RichTextContainer" tabindex="0">
+                                            <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-letter-spacing:-0.01em;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))"
+                                                class="framer-text"><a class="framer-text framer-styles-preset-1lw30e1"
+                                                    data-styles-preset="elAPnpNjR" href="./contact"
+                                                    data-framer-page-link-current="true">Contact</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="framer-1wj2dtb-container">
+                <div class="ssr-variant hidden-sxb98b hidden-3mpir4">
+                    <section class="framer-ttwf0 framer-P6vcm framer-1cna20u framer-v-1cna20u"
+                        data-framer-name="Desktop"
+                        style="background-color:var(--token-22175c2f-3a09-463a-8942-f7624f8a969b, rgb(237, 244, 242));border-bottom-left-radius:32px;border-bottom-right-radius:32px;border-top-left-radius:32px;border-top-right-radius:32px;max-width:100%;width:100%">
+                        <div class="framer-19uncy9" data-framer-name="Content">
+                            <div class="framer-1wtvh2k" data-framer-name="Texts"><a
+                                    class="framer-1jcoeu0 framer-19sr8s3" href="./"></a>
+                                <div class="framer-offivp">
+                                    <div class="framer-1vn56tq" data-framer-name="Description"
+                                        style="outline:none;display:flex;flex-direction:column;justify-content:center;flex-shrink:0;--extracted-1lwpl3i:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));will-change:transform;opacity:0;transform:perspective(1200px) translateY(10px)"
+                                        data-framer-component-type="RichTextContainer">
+                                        <h5 class="framer-text framer-styles-preset-2pqig1"
+                                            data-styles-preset="xAzHwdCxe"
+                                            style="--framer-text-color:var(--extracted-1lwpl3i, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))">
+                                            David Martinez</h5>
+                                    </div>
+                                    <div class="framer-1r9ulxh" data-framer-name="Description"
+                                        style="outline:none;display:flex;flex-direction:column;justify-content:center;flex-shrink:0;--extracted-1lwpl3i:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(42, 42, 40));will-change:transform;opacity:0;transform:perspective(1200px) translateY(10px)"
+                                        data-framer-component-type="RichTextContainer">
+                                        <h5 class="framer-text framer-styles-preset-2pqig1"
+                                            data-styles-preset="xAzHwdCxe"
+                                            style="--framer-text-color:var(--extracted-1lwpl3i, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(42, 42, 40)))">
+                                            Product Designer / Creative</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="ssr-variant hidden-k8wtuh hidden-3mpir4">
+                    <section class="framer-ttwf0 framer-P6vcm framer-1cna20u framer-v-19ukegg" data-framer-name="Phone"
+                        style="background-color:var(--token-22175c2f-3a09-463a-8942-f7624f8a969b, rgb(237, 244, 242));border-bottom-left-radius:32px;border-bottom-right-radius:32px;border-top-left-radius:32px;border-top-right-radius:32px;max-width:100%;width:100%">
+                        <div class="framer-19uncy9" data-framer-name="Content">
+                            <div class="framer-1wtvh2k" data-framer-name="Texts"><a
+                                    class="framer-1jcoeu0 framer-19sr8s3" href="./"></a>
+                                <div class="framer-offivp">
+                                    <div class="framer-1vn56tq" data-framer-name="Description"
+                                        style="outline:none;display:flex;flex-direction:column;justify-content:center;flex-shrink:0;--extracted-1lwpl3i:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));will-change:transform;opacity:0;transform:perspective(1200px) translateY(10px)"
+                                        data-framer-component-type="RichTextContainer">
+                                        <h5 class="framer-text framer-styles-preset-2pqig1"
+                                            data-styles-preset="xAzHwdCxe"
+                                            style="--framer-text-color:var(--extracted-1lwpl3i, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))">
+                                            David Martinez</h5>
+                                    </div>
+                                    <div class="framer-1r9ulxh" data-framer-name="Description"
+                                        style="outline:none;display:flex;flex-direction:column;justify-content:center;flex-shrink:0;--extracted-1lwpl3i:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(42, 42, 40));will-change:transform;opacity:0;transform:perspective(1200px) translateY(10px)"
+                                        data-framer-component-type="RichTextContainer">
+                                        <h5 class="framer-text framer-styles-preset-2pqig1"
+                                            data-styles-preset="xAzHwdCxe"
+                                            style="--framer-text-color:var(--extracted-1lwpl3i, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(42, 42, 40)))">
+                                            Product Designer / Creative</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="ssr-variant hidden-sxb98b hidden-k8wtuh">
+                    <section class="framer-ttwf0 framer-P6vcm framer-1cna20u framer-v-yjoshv" data-framer-name="Tablet"
+                        style="background-color:var(--token-22175c2f-3a09-463a-8942-f7624f8a969b, rgb(249, 250, 250));border-bottom-left-radius:32px;border-bottom-right-radius:32px;border-top-left-radius:32px;border-top-right-radius:32px;max-width:100%;width:100%">
+                        <div class="framer-19uncy9" data-framer-name="Content">
+                            <div class="framer-1wtvh2k" data-framer-name="Texts"><a
+                                    class="framer-1jcoeu0 framer-19sr8s3" href="./"></a>
+                                <div class="framer-offivp">
+                                    <div class="framer-1vn56tq" data-framer-name="Description"
+                                        style="outline:none;display:flex;flex-direction:column;justify-content:center;flex-shrink:0;--extracted-1lwpl3i:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80));will-change:transform;opacity:0;transform:perspective(1200px) translateY(10px)"
+                                        data-framer-component-type="RichTextContainer">
+                                        <h5 class="framer-text framer-styles-preset-2pqig1"
+                                            data-styles-preset="xAzHwdCxe"
+                                            style="--framer-text-color:var(--extracted-1lwpl3i, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(56, 66, 80)))">
+                                            David Martinez</h5>
+                                    </div>
+                                    <div class="framer-1r9ulxh" data-framer-name="Description"
+                                        style="outline:none;display:flex;flex-direction:column;justify-content:center;flex-shrink:0;--extracted-1lwpl3i:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(42, 42, 40));will-change:transform;opacity:0;transform:perspective(1200px) translateY(10px)"
+                                        data-framer-component-type="RichTextContainer">
+                                        <h5 class="framer-text framer-styles-preset-2pqig1"
+                                            data-styles-preset="xAzHwdCxe"
+                                            style="--framer-text-color:var(--extracted-1lwpl3i, var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(42, 42, 40)))">
+                                            Product Designer / Creative</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="framer-wnhqel" data-framer-name="Resume">
+                <div class="framer-swj18f" data-framer-name="Content">
+                    <div class="framer-ln1mic" data-framer-name="Block #4"
+                        style="will-change:transform;opacity:0;transform:perspective(1200px) translateY(10px)">
+                        <div class="framer-1m7m2l1" data-framer-name="Heading">
+                            <div class="ssr-variant hidden-sxb98b hidden-3mpir4">
+                                <div class="framer-ay5bfq"
+                                    style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                                    data-framer-component-type="RichTextContainer">
+                                    <h3 class="framer-text framer-styles-preset-1sksvyh" data-styles-preset="QL4JkJfgI"
+                                        style="--framer-text-color:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(42, 42, 40))">
+                                        Reach Out (I Might Be Online)</h3>
+                                </div>
+                            </div>
+                            <div class="ssr-variant hidden-k8wtuh hidden-3mpir4">
+                                <div class="framer-ay5bfq"
+                                    style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                                    data-framer-component-type="RichTextContainer">
+                                    <h5 class="framer-text framer-styles-preset-2pqig1" data-styles-preset="xAzHwdCxe"
+                                        style="--framer-text-color:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(42, 42, 40))">
+                                        Reach Out (I Might Be Online)</h5>
+                                </div>
+                            </div>
+                            <div class="ssr-variant hidden-sxb98b hidden-k8wtuh">
+                                <div class="framer-ay5bfq"
+                                    style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                                    data-framer-component-type="RichTextContainer">
+                                    <h5 class="framer-text framer-styles-preset-2pqig1" data-styles-preset="xAzHwdCxe"
+                                        style="--framer-text-color:var(--token-266c8d71-9990-411c-9a11-ecf80446ea66, rgb(42, 42, 40))">
+                                        Reach Out (I Might Be Online)</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="framer-mu53o2" data-framer-name="Text">
+                            <div class="framer-bosfcu">
+                                <div class="framer-q558y8"
+                                    style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+                                    data-framer-component-type="RichTextContainer">
+                                    <blockquote class="framer-text">
+                                        <p class="framer-text framer-styles-preset-1y1gyft"
+                                            data-styles-preset="Hvp8Hk0or">If you’d like to talk about future projects,
+                                            you can find me on <a class="framer-text framer-styles-preset-1x20b2f"
+                                                data-styles-preset="lc42jVdxL"
+                                                href="https://www.linkedin.com/in/davidmateomartinez/" target="_blank"
+                                                rel="noopener">LinkedIn</a>, <a
+                                                class="framer-text framer-styles-preset-1x20b2f"
+                                                data-styles-preset="lc42jVdxL" href="https://x.com/dvidmto"
+                                                target="_blank" rel="noopener">X.com</a>, <a
+                                                class="framer-text framer-styles-preset-1x20b2f"
+                                                data-styles-preset="lc42jVdxL"
+                                                href="https://www.instagram.com/davigimon/" target="_blank"
+                                                rel="noopener">Instagram</a> — or via the always reliable <a
+                                                class="framer-text framer-styles-preset-1x20b2f"
+                                                data-styles-preset="lc42jVdxL"
+                                                href="/cdn-cgi/l/email-protection#2c484d5a454b4548495f6c4b414d4540024f4341"
+                                                target="_blank" rel="noopener">Email</a>.</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="framer-j3ud00-container">
+                <div class="ssr-variant hidden-sxb98b hidden-3mpir4">
+                    <footer class="framer-lkBrL framer-7k587i framer-v-7k587i" data-framer-name="Desktop"
+                        style="background-color:var(--token-22175c2f-3a09-463a-8942-f7624f8a969b, rgb(237, 244, 242));width:100%">
+                        <div class="framer-pazvum" data-framer-name="Divider"
+                            style="background-color:var(--token-ce2e7739-d2ec-4f54-8930-15144ae6239e, rgb(175, 175, 172))">
+                        </div>
+                        <div class="framer-navicy"
+                            style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-b1106767-fbaa-4a24-bd97-dfbf18764b12, rgb(68, 68, 68));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none"
+                            data-framer-component-type="RichTextContainer">
+                            <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:14px;--framer-text-color:var(--extracted-r6o4lv, var(--token-b1106767-fbaa-4a24-bd97-dfbf18764b12, rgb(68, 68, 68)))"
+                                class="framer-text">Copyright 2025 by David Martinez</p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="ssr-variant hidden-k8wtuh hidden-3mpir4">
+                    <footer class="framer-lkBrL framer-7k587i framer-v-e3qmwl" data-framer-name="Phone"
+                        style="background-color:var(--token-22175c2f-3a09-463a-8942-f7624f8a969b, rgb(237, 244, 242));width:100%">
+                        <div class="framer-pazvum" data-framer-name="Divider"
+                            style="background-color:var(--token-ce2e7739-d2ec-4f54-8930-15144ae6239e, rgb(175, 175, 172))">
+                        </div>
+                        <div class="framer-navicy"
+                            style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-b1106767-fbaa-4a24-bd97-dfbf18764b12, rgb(68, 68, 68));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none"
+                            data-framer-component-type="RichTextContainer">
+                            <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:14px;--framer-text-color:var(--extracted-r6o4lv, var(--token-b1106767-fbaa-4a24-bd97-dfbf18764b12, rgb(68, 68, 68)))"
+                                class="framer-text">Copyright 2025 by David Martinez</p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="ssr-variant hidden-sxb98b hidden-k8wtuh">
+                    <footer class="framer-lkBrL framer-7k587i framer-v-1p94by5" data-framer-name="Tablet"
+                        style="background-color:var(--token-22175c2f-3a09-463a-8942-f7624f8a969b, rgb(237, 244, 242));width:100%">
+                        <div class="framer-pazvum" data-framer-name="Divider"
+                            style="background-color:var(--token-ce2e7739-d2ec-4f54-8930-15144ae6239e, rgb(175, 175, 172))">
+                        </div>
+                        <div class="framer-navicy"
+                            style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-b1106767-fbaa-4a24-bd97-dfbf18764b12, rgb(68, 68, 68));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none"
+                            data-framer-component-type="RichTextContainer">
+                            <p style="--font-selector:R0Y7TWFucm9wZS1yZWd1bGFy;--framer-font-family:&quot;Manrope&quot;, &quot;Manrope Placeholder&quot;, sans-serif;--framer-font-size:14px;--framer-text-color:var(--extracted-r6o4lv, var(--token-b1106767-fbaa-4a24-bd97-dfbf18764b12, rgb(68, 68, 68)))"
+                                class="framer-text">Copyright 2025 by David Martinez</p>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <div id="overlay"></div>
+    </div>
+    <script data-cfasync="false"
+        src="https://thrilled-accessibility-960823.framer.app/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script>(() => { function u() { function n(t, e, i) { let r = document.createElement("a"); r.href = t, r.target = i, r.rel = e, document.body.appendChild(r), r.click(), r.remove() } function o(t) { if (this.dataset.hydrated) { this.removeEventListener("click", o); return } t.preventDefault(), t.stopPropagation(); let e = this.getAttribute("href"); if (!e) return; if (/Mac|iPod|iPhone|iPad/u.test(navigator.userAgent) ? t.metaKey : t.ctrlKey) return n(e, "", "_blank"); let r = this.getAttribute("rel") ?? "", c = this.getAttribute("target") ?? ""; n(e, r, c) } function a(t) { if (this.dataset.hydrated) { this.removeEventListener("auxclick", o); return } t.preventDefault(), t.stopPropagation(); let e = this.getAttribute("href"); e && n(e, "", "_blank") } function s(t) { if (this.dataset.hydrated) { this.removeEventListener("keydown", s); return } if (t.key !== "Enter") return; t.preventDefault(), t.stopPropagation(); let e = this.getAttribute("href"); if (!e) return; let i = this.getAttribute("rel") ?? "", r = this.getAttribute("target") ?? ""; n(e, i, r) } document.querySelectorAll("[data-nested-link]").forEach(t => { t instanceof HTMLElement && (t.addEventListener("click", o), t.addEventListener("auxclick", a), t.addEventListener("keydown", s)) }) } return u })()()</script>
+    <script>(() => { function i() { for (let e of document.querySelectorAll("[data-framer-original-sizes]")) { let t = e.getAttribute("data-framer-original-sizes"); t === "" ? e.removeAttribute("sizes") : e.setAttribute("sizes", t), e.removeAttribute("data-framer-original-sizes") } } function a() { window.__framer_onRewriteBreakpoints = i } return a })()()</script>
+
+
+
+    <script data-framer-appear-animation="no-preference"></script>
+    <link rel="modulepreload" fetchpriority="low"
+        href="https://framerusercontent.com/sites/4PnzWskNO7Gw5neUy4CfEt/chunk-3M3SNLDE.mjs">
+    <link rel="modulepreload" fetchpriority="low"
+        href="https://framerusercontent.com/sites/4PnzWskNO7Gw5neUy4CfEt/chunk-BSKATT4Q.mjs">
+    <link rel="modulepreload" fetchpriority="low"
+        href="https://framerusercontent.com/sites/4PnzWskNO7Gw5neUy4CfEt/chunk-A3IIQ6X3.mjs">
+    <link rel="modulepreload" fetchpriority="low"
+        href="https://framerusercontent.com/sites/4PnzWskNO7Gw5neUy4CfEt/chunk-FIZTVOUW.mjs">
+    <link rel="modulepreload" fetchpriority="low"
+        href="https://framerusercontent.com/sites/4PnzWskNO7Gw5neUy4CfEt/LCUKShQMMFoGbSnBlZ_CagKkLiQ2V0JoNfhlOkaBZb4.Y5FAL4V4.mjs">
+    <link rel="modulepreload" fetchpriority="low"
+        href="https://framerusercontent.com/sites/4PnzWskNO7Gw5neUy4CfEt/chunk-75GK4YE6.mjs">
+    <link rel="modulepreload" fetchpriority="low"
+        href="https://framerusercontent.com/sites/4PnzWskNO7Gw5neUy4CfEt/chunk-HL57GK7Y.mjs">
+    <link rel="modulepreload" fetchpriority="low"
+        href="https://framerusercontent.com/sites/4PnzWskNO7Gw5neUy4CfEt/chunk-VASYIDYJ.mjs">
+    <link rel="modulepreload" fetchpriority="low"
+        href="https://framerusercontent.com/sites/4PnzWskNO7Gw5neUy4CfEt/chunk-42U43NKG.mjs">
+    <link rel="modulepreload" fetchpriority="low"
+        href="https://framerusercontent.com/sites/4PnzWskNO7Gw5neUy4CfEt/chunk-HCYES3WZ.mjs">
+    <link rel="modulepreload" fetchpriority="low"
+        href="https://framerusercontent.com/sites/4PnzWskNO7Gw5neUy4CfEt/chunk-TSSO2ADX.mjs">
+    <link rel="modulepreload" fetchpriority="low"
+        href="https://framerusercontent.com/sites/4PnzWskNO7Gw5neUy4CfEt/script_main.ODWVUYDG.mjs">
+    <script type="module" async data-framer-bundle="main" fetchpriority="low"
+        src="https://framerusercontent.com/sites/4PnzWskNO7Gw5neUy4CfEt/script_main.ODWVUYDG.mjs"></script>
+    <div id="svg-templates"
+        style="position: absolute; overflow: hidden; bottom: 0; left: 0; width: 0; height: 0; z-index: 0; contain: strict"
+        aria-hidden="true">
+    </div>
+
+
+
+</body>
+
+</html>
